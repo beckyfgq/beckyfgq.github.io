@@ -16,7 +16,7 @@
       }
 
       @include grid-media(desktop) {
-        @include grid-column-from-to(9,12);
+        @include grid-column-from-to(9,16);
       }
     }
 

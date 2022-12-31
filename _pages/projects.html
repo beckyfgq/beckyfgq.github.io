@@ -1,19 +1,29 @@
 ---
 layout: page
-title_override: Matt Grey - Multi-disciplined Digital Product Designer
+title_override: Becky Fan - Multi-disciplined Handcraft Designer
 redirect_from: /portfolio
 permalink: /
 priority: 1.0
+
+profile_picture: /images/profile-pictures/profile.jpg
+intro: |
+  Hi, I'm Becky Fan from Shanghai, China. A handcraft designer.
+
+  I am currently based in Shanghai and work as a Product Designer at
+  [Baidu](//www.baidu.com/).
+pj_intro1:
+  ada hell world
 ---
 
 <div class="projects-intro-wrapper">
-  <p class="projects-intro type-level-1">Matt&nbsp;Grey is a Product Designer living in London,&nbsp;UK.</p>
+  <p class="projects-intro type-level-1">Becky&nbsp;Fan is a Handcraft Designer living in Shanghai,&nbsp;China.</p>
 </div>
 
-<div class="projects-intro-wrapper"><p class="projects-intro type-level-3"><a href="/contact">Get in touch</a> if you'd like to see some of my latest work.</p></div>
 
+  <!-- </section>
 <div class="projects">
 {% for project in site.projects reversed limit:include.limit %}
+
   <article class="project-listing">
     <div class="thumbnail-wrapper">
       <a href="{{ project.url | prepend: site.baseurl }}">
@@ -25,7 +35,122 @@ priority: 1.0
         </div>
         <h3 aria-hidden="true">{{ project.title }}</h3>
       </a>
+    </br>
     </div>
+   
   </article>
 {% endfor %}
+</div> -->
+
+
+
+<!-- <div class="global-wrapper">
+  <main class="main-content " id="maincontent">
+    <div class="projects-intro-wrapper">
+      <p class="projects-intro type-level-1">Becky&nbsp;Fan is a Handcraft Designer living in
+        Shanghai,&nbsp;China.</p>
+    </div>
+    </section>
+    <div class="projects">
+      <article class="project-listing ">
+        <div class="thumbnail-wrapper "> <a href="/projects/ski-solutions/">
+            <div class="thumbnail-description-wrapper"> <img
+                src="/images/projects/ski-solutions/plist-ski-solutions.jpg" alt="Ski Solutions" width="600"
+                height="450">
+              <p class="thumbnail-description"> <span>Responsive experience redesign for a tailor-made
+                  ski tour operator</span></p>
+            </div>
+            <h3 aria-hidden="true">Ski Solutions</h3>
+          </a> </br></div>
+      </article>
+      <article class="project-listing paragraph-normal">
+        <div class="projects-intro ">
+          adfadfa
+        </div>
+      </article>
+    </div>
+    </section>
+
+    <div class="projects">
+      <article class="project-listing">
+        <div class="thumbnail-wrapper"> <a href="/projects/unified/">
+            <div class="thumbnail-description-wrapper"> <img src="/images/projects/unified/plist-unified.png"
+                alt="Unified Icon Set" width="600" height="450">
+              <p class="thumbnail-description"> <span>An extensive icon system with a unified
+                  style</span></p>
+            </div>
+            <h3 aria-hidden="true">Unified Icon Set</h3>
+          </a> </br></div>
+      </article>
+    </div>
+  </main>
+
+</div>
+ -->
+
+
+ <!-- <div class="global-wrapper">
+  <main class="main-content " id="maincontent">
+    <div class="projects-intro-wrapper">
+      <p class="projects-intro type-level-1">Becky&nbsp;Fan is a Handcraft Designer living in
+        Shanghai,&nbsp;China.</p>
+    </div>
+    <div class="about">
+      <div class="about-intro-image">
+        <img src="{{ page.profile_picture }}" alt="">
+      </div>
+  
+      <div class="about-intro-description paragraph-normal">
+        {{ page.intro | markdownify }}
+      </div>
+    <div class="projects">
+        <div class="projects-intro-image "> <a href="/projects/ski-solutions/">
+            <div class="thumbnail-description-wrapper"> <img
+                src="/images/projects/ski-solutions/plist-ski-solutions.jpg" alt="Ski Solutions" width="600"
+                height="450">
+            </div>
+            <h3 aria-hidden="false">Ski Solutions</h3>
+          </a> </br></div>
+      <article class="project-listing paragraph-normal">
+        <div class="projects-intro ">
+          <span>   {{ page.pj_intro1 | markdownify }}</span>
+        </div>
+      </article>
+    </div>
+  </main> -->
+
+</div>
+
+
+
+<div class="prj-wrapper">
+  </section>
+  <div class="prj"><a href="/projects/ski-solutions/">
+    <div class="prj-intro-image">
+      <img src="/images/projects/ski-solutions/plist-ski-solutions.jpg" alt="">
+      <h3 aria-hidden="false">Ski Solutions</h3>
+    </a>
+    </div>
+
+    <div class="prj-intro-description paragraph-normal">
+      {{ page.pj_intro1 | markdownify }}
+    </div>
+
+  </div>
+  </br>
+  
+  <div class="prj"><a href="/projects/ski-solutions/">
+    <div class=" prj-intro-description">
+      <img src="/images/projects/ski-solutions/plist-ski-solutions.jpg" alt="">
+      <h3 aria-hidden="false">Ski Solutions</h3>
+    </a>
+    </div>
+
+    <div class="prj-intro-image paragraph-normal">
+      {{ page.pj_intro1 | markdownify }}
+    </div>
+
+  </div>
+  </br>
+
 </div>

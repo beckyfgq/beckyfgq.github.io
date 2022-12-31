@@ -10,10 +10,7 @@ ownership:
 client: Ski Solutions
 time_period: 2017
 thumbnail: "/projects/ski-solutions/plist-ski-solutions.jpg"
-
-website:
-  button_text: Visit the site
-  url: https://www.skisolutions.com
+content: adafasdfa
 
 intro: |
   The absence of full mobile device support was negatively impacting on
@@ -27,27 +24,29 @@ intro: |
   consistency with the colours, geometry and component styles.
 
 content_layout:
-  - section_layout: 1col
+  - section_layout: 2col
     images:
-      - caption:
+      - caption: aa
         description: 'Homepage'
         url: '/projects/ski-solutions/ski-solutions-homepage.jpg'
-        width:
-        height:
+        width: 200
+        height: 200
 
-  - section_layout: 1col
-    images:
-      - caption:
-        description: 'Property listing'
-        url: '/projects/ski-solutions/ski-solutions-listing.jpg'
-        width:
-        height:
+      - caption: bb
+        description: 'Homepage'
+        # url: '/projects/ski-solutions/ski-solutions-homepage.jpg'
+        width: 200
+        height: 200
 
-  - section_layout: 1col
-    images:
-      - caption:
-        description: 'Property'
-        url: '/projects/ski-solutions/ski-solutions-property.jpg'
-        width:
-        height:
+    # -section_layout: text
+    #   content: dsafd
+
+  # - section_layout: 1col
+  #   images:
+  #     - caption:
+  #       description: 'Property listing'
+  #       url: '/projects/ski-solutions/ski-solutions-listing.jpg'
+  #       width:
+  #       height:
+
 ---
