@@ -13,7 +13,6 @@ $(document).ready(function() {
     });
     /* Navigation scroll */
     $(function() {
-      alert("hell")
       $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -95,8 +94,11 @@ $(document).ready(function() {
 var stop = false;
 
 $(function() {
+  alert("hell")
+
 	  // apply spans
       $("h1").lettering();
+      alert("hell0")
 
       // hack to get animations to run again
       $(".redraw").click(function() {
