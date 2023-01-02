@@ -286,7 +286,16 @@ h2:after {
     letter-spacing: 2px;
     line-height: 1.5;
 }
-
+.aboutme-words {
+    max-width:750px;
+    font-size: 170%;
+    color: #6ec992;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: var(--paragraph-spacing);
+    // font-size: var(--font-size-body);
+}
 .introduction-words {
     padding-top: 50px;
     font-weight: 400;

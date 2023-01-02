@@ -12,7 +12,7 @@
       }
 
       @include grid-media(tablet) {
-        @include grid-column-from-to(9,12);
+        @include grid-column-from-to(7,11);
       }
 
       @include grid-media(desktop) {
@@ -30,7 +30,7 @@
 
       @include grid-media(tablet) {
         grid-row: 1;
-        @include grid-column-from-to(1,7);
+        @include grid-column-from-to(2,8);
       }
 
       @include grid-media(desktop) {
