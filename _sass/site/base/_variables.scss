@@ -44,8 +44,8 @@
 
   // --color-primary: 255,255,255;
   --color-primary: 255,255,255;
-  --color-secondary: 33,33,33; 
-    // --color-secondary: 255,120,255; //粉色
+  // --color-secondary: 33,33,33; 
+    --color-secondary: 255,255,255; //粉色fgq
 
   --color-tertiary: 0, 0, 255;
   --color-action: #65ff80;
@@ -57,7 +57,8 @@
   --color-background-rgb: var(--color-secondary);
   --color-line: rgba(var(--color-primary), var(--color-rgb-opacity-tint-mid));
   --color-line-subtle: rgba(var(--color-primary), var(--color-rgb-opacity-tint-light));
-  --color-text: rgba(var(--color-primary),.95);
+  // --color-text: rgba(var(--color-primary),.95);
+  --color-text: rgba(0,0,0,1.0);//fgq
   --color-form-background: rgba(var(--color-primary),.95);
   --color-text-inverted: rgba(var(--color-secondary),.95);
 

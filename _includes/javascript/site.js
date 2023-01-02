@@ -6,6 +6,7 @@ $(function () {
     startOffset: 90,
     tolerance: 5,
     showAtBottom: false,
+    
     classNames: {
       base: 'sticky-header',
       fixed: 'sticky-header--fixed',

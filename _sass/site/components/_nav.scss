@@ -113,6 +113,7 @@
 
         &:hover {
           background: rgba(var(--color-text), .2);
+          color: #ff0; /*fgq*/
         }
 
         &.current {
@@ -178,7 +179,7 @@
             border-left: none;
             opacity: 1;
             background: inherit;
-
+            
             &:after {
               @include visually-hidden;
             }

@@ -1,0 +1,275 @@
+
+
+
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.top-banner-row {
+    margin: auto;
+    text-align: center;
+}
+
+
+.box img {
+    width: 20%;
+}
+
+
+/* ----- HEADINGS ----- */
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+.mwz {
+   @extend h1 
+}
+
+h1 a {
+    text-decoration: none;
+}
+
+#jquerybuddy span {
+    text-shadow: 0 0 4px rgb(180, 180, 180);
+    color: transparent;
+}
+#jquerybuddy:link,
+#jquerybuddy:visited {
+    -webkit-transition: color 0.2s, text-shadow 0.5s;
+    transition: color 0.2s, text-shadow 0.5s;
+}
+
+#jquerybuddy:hover,
+#jquerybuddy:active {
+    color: #888888;
+    text-shadow: none;
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+
+/* ----- BUTTONS ----- */
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 3px 10px;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.orange {
+    background-color: #F2784B;
+}
+
+.blue {
+    background-color: #3498DB;
+}
+
+;
+
+
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #bebebe;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    color: #ffffff;
+    background-color: #bebebe;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: #969696;
+    background-color: #eaeaea;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    color: #ffffff;
+    background-color: #bebebe;
+}
+
+.marketingwords {
+    width: 90%;
+    text-align: left;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 130%;
+    margin-bottom: 15px;
+}
+
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #bebebe;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+/* ----------------------------------------------- */
+
+/* Animations */
+
+/* ----------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
+
+.banner-text {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #888888;
+    font-size: 450%;
+    letter-spacing: 5px;
+}
+
+
+
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.vertical-center {
+    height: 100%;
+    vertical-align: middle;
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+.wrap:hover .meal-photo img {
+
+    -webkit-transform: scale(1.05);
+
+    transform: scale(1.05);
+    -webkit-filter: saturate(1);
+    filter: saturate(1);
+}
+
+.img__text {
+    font-size: 120%;
+    color: #acacac;
+    letter-spacing: 2px;
+    font-weight: 400;
+    opacity: 0;
+    visibility: 0;
+    -webkit-transform: translateY(2.5em);
+    transform: translateY(2.5em);
+    -webkit-transition: opacity .5s, visibility .5s, -webkit-transform .5s;
+    transition: opacity .5s, visibility .5s, -webkit-transform .5s;
+    transition: opacity .5s, visibility .5s, transform .5s;
+    transition: opacity .5s, visibility .5s, transform .5s, -webkit-transform .5s;
+
+}
+
+.wrap:hover .img__text {
+    opacity: 1;
+    visibility: 0;
+    -webkit-transform: translateY(1em);
+    transform: translateY(1em);
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-filter: saturate(0.6);
+    filter: saturate(0.6);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.5s;
+    transition: -webkit-transform 0.5s, -webkit-filter 0.5s;
+    transition: transform 0.5s, filter 0.5s;
+    transition: transform 0.5s, filter 0.5s, -webkit-transform 0.5s, -webkit-filter 0.5s;
+}
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 33.33%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}

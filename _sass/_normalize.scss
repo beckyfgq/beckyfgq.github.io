@@ -100,6 +100,14 @@ a {
 a:active,
 a:hover {
   outline-width: 0;
+  // color: #ff0; /*fgq*/
+}
+.mwza {
+  @extend a
+}
+a:hover span { /*fgq*/
+  text-decoration: none;
+  color: rgb(0, 0, 0)!important;
 }
 
 /* Text-level semantics

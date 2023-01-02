@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li, dl, dt, dd {
 .paragraph-normal p {
   margin-bottom: var(--paragraph-spacing);
   font-size: var(--font-size-body);
+  color: darkgrey; //fgq
 }
 
 .paragraph-small,
@@ -87,4 +88,5 @@ small,
 figcaption {
   font-size: var(--font-size-body-tiny);
   line-height: var(--line-height-tiny);
+  color: darkgrey; //fgq
 }

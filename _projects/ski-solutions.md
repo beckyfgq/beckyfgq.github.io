@@ -1,7 +1,7 @@
 ---
 date: 2017-6-1
 published: true
-title: "Ski Solutions"
+title: "Ski Solutions0"
 description: "Responsive experience redesign for a tailor-made ski tour operator"
 categories: website, ux, mobile
 disciplines: UX, Responsive web design, HTML/CSS
@@ -26,15 +26,13 @@ intro: |
 content_layout:
   - section_layout: 2col
     images:
-      - caption: aa
+      - pic: aa
         description: 'Homepage'
         url: '/projects/ski-solutions/ski-solutions-homepage.jpg'
         width: 200
         height: 200
 
-      - caption: bb
-        description: 'Homepage'
-        # url: '/projects/ski-solutions/ski-solutions-homepage.jpg'
+      - content: bbbbb
         width: 200
         height: 200
 

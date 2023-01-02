@@ -191,7 +191,7 @@ $thumb-animation-ease-out: ease-in-out;
 
       &:hover .thumbnail-description-wrapper p.thumbnail-description,
       &:focus .thumbnail-description-wrapper p.thumbnail-description {
-
+        color: #ff0; /*fgq*/
         //semi-transparent background
         opacity: 1;
 
