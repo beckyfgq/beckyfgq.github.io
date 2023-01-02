@@ -94,11 +94,9 @@ $(document).ready(function() {
 var stop = false;
 
 $(function() {
-  alert("hell")
 
 	  // apply spans
       $("h1").lettering();
-      alert("hell0")
 
       // hack to get animations to run again
       $(".redraw").click(function() {
