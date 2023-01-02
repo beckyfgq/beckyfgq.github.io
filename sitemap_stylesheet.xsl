@@ -40,7 +40,7 @@
             text-decoration: none;
           }
           a:visited { color: #777;}
-          a:hover { text-decoration: underline; }
+          a:hover { text-decoration: none; }
           td {
             font-size: 16px;
             padding: 8px 0;

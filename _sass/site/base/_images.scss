@@ -1,10 +1,10 @@
 img {
   //Fix blink opacity bug
   -webkit-transform: translateZ(0);
-  width: calc(100% + .49px);
+  // width: calc(100% + .49px); //fgq
 
   max-width: 100%;
-  height: auto;
+  // height: auto; //fgq
 
   //image border
   &.light {
