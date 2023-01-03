@@ -37,29 +37,29 @@ whatido:
       width:
       height:
 
-    - caption:
-      description: Watch icon
+    - caption: Product Designer
+      description: Design art derivatives for the Monet exhibition, exhibited in Shanghai Bund One Art Museum
       url: '/projects/about/02.jpg'
       width:
       height:
 
-    - caption:
-      description: Paint bucket icon
+    - caption: Ceramic Crafter
+      description: Matisse, stripes and colors are my favorite subjects, painting these elements on pottery is a great pleasure
       url: '/projects/about/03.jpg'
       width:
       height:
-    - caption:
-      description: Paint bucket icon
+    - caption: Workshop Educator
+      description: handmade studio in Shanghai, offer ceramic and tufting offline class
       url: '/projects/about/04.jpg'
       width:
       height:
-    - caption:
-      description: Paint bucket icon
+    - caption: Online Creator
+      description: video edition and content create where I share art and inspiration to the art lover community in Douyin and Xiaohongshu
       url: '/projects/about/05.jpg'
       width:
       height:
-    - caption:
-      description: Paint bucket icon
+    - caption: Illustration Freelancer
+      description: Illustration is my eyes to observe the world, my style is biased towards nature, color and everyday details
       url: '/projects/about/06.jpg'
       width:
       height:
@@ -145,7 +145,7 @@ postcards:
 
 </div>
 <div class="projects" style="padding-left: 10%; padding-right: 10%;">
-  <p class="project-listing" style="color: #6ec992;font-size: 170%;">What I Do</p>
+  <p class="project-listing" style="color: #6ec992;font-size: 170%;letter-spacing: 1px;">What I Do</p>
 </div>
 <br/>
 <div class="projects" style="padding-left: 10%; padding-right: 10%;">
@@ -156,10 +156,10 @@ postcards:
           <div class="thumbnail-description-wrapper0">
             <img src="{{ image.url | prepend: site.image_serve_path }}" >
             <p class="thumbnail-description">
-              <span style="color: #f69fbf;font-size: 100%; font-weight: bold;">{{ image.caption }}</span><br/>
-              <span style="color: #8b8b8b; font-size: 60%;font-weight:lighter;line-height:0.1;">
+              <span style="color: #f69fbf;font-size: 100%; font-weight:500;letter-spacing: 1px;">{{ image.caption }}</span><br/>
+              <div style="color: #8b8b8b; font-size: 60%;font-weight:lighter;line-height:1.2;letter-spacing: 1px;">
                 {{ image.description }}
-              </span>
+              </div>
             </p>
           </div>
       </div>
@@ -171,7 +171,7 @@ postcards:
 <div style="height: 50px;">
 </div>
 <div class="projects0" style="padding-left: 15%; padding-right: 10%;">
-  <p class="project-listing" style="color: #6ec992; font-size: 170%;">
+  <p class="project-listing" style="color: #6ec992; font-size: 170%;letter-spacing: 1px;">
   Postcards from Outside Work
   </p>
 </div>
@@ -184,9 +184,6 @@ postcards:
       <div class="thumbnail-wrapper0">
           <div class="thumbnail-description-wrapper0">
             <img src="{{ image.url | prepend: site.image_serve_path }}" height="198" width="auto">
-            <p class="thumbnail-description">
-              <span>{{ image.description }}</span>
-            </p>
           </div>
       </div>
     </article>
