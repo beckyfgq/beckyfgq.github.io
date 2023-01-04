@@ -26,8 +26,8 @@ title-class: project
   }
 </script>
 
-<div class="project-wrapper" style="color: black;">
-
+<div class="prj-wrapper" style="color: black;">
+<!-- 
   <div class="project-info">
     <section class="project-intro paragraph-normal">{{ page.intro | markdownify }}</section>
     <aside class="project-details">
@@ -58,11 +58,13 @@ title-class: project
         {% endif %}
       </div>
     </aside>
-  </div>
+  </div> -->
 
   <section>
   {% for entry in page.content_layout %}
-    {% include layout.html %}
+    <div class={{ entry.class }}>
+      {% include layout.html %}
+    </div>
   {% endfor %}
   </section>
 
