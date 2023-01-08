@@ -32,7 +32,7 @@ This site runs on Jekyll, an opensource static site generating platform.
   bundle exec jekyll serve
   ```
   
-- Go to http://localhost:4000/ in your browser
+- Go to http://beckyfgq.github.io/ in your browser
 
 
 ## Licenses
