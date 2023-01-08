@@ -18,12 +18,12 @@ include:
   - _redirects
 
 # Site settings
-title: Guangqi Fan
-long-title: Guangqi Fan Design
+title: Becky Fan
+long-title: Becky Fan Design
 email: fanguangqi@biukey.com
-description: "The selected portfolio of Shanghai/London based handcraft designer Guangqi Fan"
+description: "The selected portfolio of Shanghai/London based handcraft designer Becky Fan"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://guangqifan.github.io/" # the base hostname & protocol for your site
+url: "https://beckyfgq.github.io/" # the base hostname & protocol for your site
 timezone: Asia/Shanghai
 year: 2022
 start-year: 2022
@@ -31,7 +31,7 @@ sitemap: true
 
 # Social networks
 social-username:
-  linkedin: "guangqifan.github.io"
+  linkedin: "beckyfgq.github.io"
   github: "beckyfgq"
 
 # Content

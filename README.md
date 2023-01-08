@@ -1,4 +1,4 @@
-### guangqifan.github.io
+### beckyfgq.github.io
 
 Personal portfolio made with [Jekyll](https://jekyllrb.com/), deployed via [Netlify](https://netlify.com/)
 
@@ -46,9 +46,9 @@ Under the [GNU General Public License v3.0](LICENSE), you can adapt and use the 
 
 ### Content
 
-© Guangqi Fan and guangqifan.github.io. Unauthorised use and/or duplication and
+© Guangqi Fan and beckyfgq.github.io. Unauthorised use and/or duplication and
 adaptation of this material (all image formats, text and additional media files)
 without express and written permission from this site’s author and/or owner is
 strictly prohibited. Excerpts and links may be used, provided that full and
-clear credit is given to Guangqi Fan and/or guangqifan.github.io with appropriate and
+clear credit is given to Guangqi Fan and/or beckyfgq.github.io with appropriate and
 specific direction to the original content.
