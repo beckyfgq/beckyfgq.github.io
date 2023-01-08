@@ -1,4 +1,4 @@
-# beckyfgq.github.io
+### beckyfgq.github.io
 
 Personal portfolio made with [Jekyll](https://jekyllrb.com/), deployed via [Netlify](https://netlify.com/)
 
@@ -34,15 +34,6 @@ This site runs on Jekyll, an opensource static site generating platform.
   
 - Go to http://localhost:4000/ in your browser
 
-
-## General information
-
-- Static website
-- Optimised for efficient [PageSpeed Insights benchmarks](https://developers.google.com/speed/pagespeed/insights/?url=himatt.com) (still more to do in this space)
-- No Jekyll plugin dependancies (previously used Bourbon and Neat, now uses CSS Grid and CSS Custom properties)
-- Continuously deployed using Netlify
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/01ca9c4b-b99d-411f-9003-9fad58ccbcf3/deploy-status)](https://app.netlify.com/sites/mattgrey/deploys)
 
 ## Licenses
 
