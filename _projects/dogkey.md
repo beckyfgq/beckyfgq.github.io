@@ -11,13 +11,15 @@ layout: dogkey
 # client: Ski Solutions
 # time_period: 2017
 # thumbnail: "/projects/ski-solutions/plist-ski-solutions.jpg"
-overview: |
-    
-    DOGKEY<br/>
-
+title: |
     Guaranteed Your Love for Pet Dogs<br/>
 
-    DOGKEY is an IoT smart home app that protects the dog's physical and mental health when the owner is not at home. Since Covid-19, more and more high-income young people are opting for a dog as an alternative to their lives, and they regard the dog as part of the family. So when the dog is alone at home, they worry about the dog's emotions, want to know what the dog is doing at home, and want to keep abreast of the dog's physical condition.<br/> 
+    DOGKEY is an IoT smart home app that protects the dog's physical and mental health when the owner is not at home. 
+overview: |
+    
+    <br/>
+
+    Since Covid-19, more and more high-income young people are opting for a dog as an alternative to their lives, and they regard the dog as part of the family. So when the dog is alone at home, they worry about the dog's emotions, want to know what the dog is doing at home, and want to keep abreast of the dog's physical condition.<br/> 
     So DOGKEY is here. It can make real-time video calls and interactions, identify the dog activities and give early warnings, feed the dog intelligently and scientifically, monitor the dog's physical indicators, and provide suggestions for improvement.
 content_market: |
     Conclusion of Market Research
@@ -30,8 +32,17 @@ content_market: |
     and better educational degrees (65.2% of those with college and master's degrees).
 
 
-# intro: |
-
+refection: |
+    Starting from the identity of a pet owner, I started this UXD journey step by step, 
+    inspired by the problems I encountered in raising dogs. My most significant learning 
+    from this project was creating a product from 0 to 1: from conducting user research 
+    to defining design requirements and developing prototypes. I learned the importance 
+    of capturing research data and understood how different the insights from it could be 
+    from user interviews. It's all about using the right method for a problem! 
+    <br/>
+    If I have more time, I'd like to be able to conduct user testing and commercial 
+    viability investigations, and I'd like to know how easy it is 
+    to implement these product features on a technical level.
 content_layout:
   - section_layout: 1col
     images:

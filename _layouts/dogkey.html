@@ -33,6 +33,10 @@
 </head>
 
 <style type="text/css">
+  :root {
+    --mg-px: 10%
+  }
+  
   .intro-cls {
     /* max-width: 750px; */
     font-size: 16px;
@@ -59,7 +63,27 @@
   .paddinglr {
     padding-right: 16%;
     padding-left: 16%;
-    padding-top: 10%;
+    /* padding-top: var(--mg-px); */
+    /* border-top: 1px solid rgb(0,255,0s,); */
+    /* margin-bottom: 0px; */
+  }
+  .padding-tp {
+    padding-top: var(--mg-px);
+  }
+  .padding-bt {
+    padding-bottom: var(--mg-px);
+  }
+  .paddinglr-smaller {
+    padding-right: 16%;
+    padding-left: 16%;
+    padding-top: 0%;
+    /* border-top: 1px solid rgb(0,255,0,); */
+    margin-bottom: 25px;
+  }
+  .paddinglr-small {
+    padding-right: 16%;
+    padding-left: 16%;
+    padding-top: 7%;
     border-top: 1px solid rgb(0,255,0,);
     margin-bottom: 25px;
   }
@@ -81,14 +105,15 @@
     margin-bottom: 24px;
   }
   .btpad {
-    height: 100px;
+    /* height: 100px; */
+    padding-bottom: var(--mg-px);
   }
   .centerimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-}
+  }
 
 </style>
 
@@ -99,34 +124,40 @@
       <figure class="image-wrapper " > <img class=""
           src="/images/projects/dogkey/dog-1.jpg" alt="Homepage">
       </figure>
-      <p class="overview-cls paddinglr">
-        <br /><br /><br/>
-        Overview
-      </p>
+      <p class="padding-tp"></p>
       <p class="intro-cls  paddinglr">
-        {{ page.overview }}
+        {{ page.title }}
       </p>
-      <p class=" image-wrapper bt" > 
-        <img  class="paddinglr" style="text-align:center;"  src="/images/projects/dogkey/my role.png" alt="Homepage">
+      <p class=" image-wrapper" > 
+        <img  class="paddinglr " style="text-align:center;"  src="/images/projects/dogkey/my role.png">
       </p>
+      <p class="padding-bt"></p>
     </div>
-    <div style="height: 30px;"></div>
     <main class="prj-wrapper" id="maincontent">
       <section>
         <div>
 
           <div class="groundcolor">
-            <div  class="paddinglr ">
-              <br /><br /><br/>
-              Design Process
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
+            <p class="padding-tp"></p>
+            <p class="overview-cls paddinglr">
+              Overview
+            </p>
+            <p class="intro-cls  paddinglr-smaller" >
+              {{ page.overview }}
+            </p>
+            <div  class="paddinglr-small ">
+              <p class="overview-cls " style="padding-top: 0%;">
+                Design Process
+              </p>
+              <p class="centerimg image-wrapper">
 
               <img class="" src="/images/projects/dogkey/001.png" alt="Homepage">
               </p>
             </div>
-            <div class="btpad"> </div>
+            <p class="padding-bt"></p>
           </div>
           <div >
+            <p class="padding-tp"></p>
             <div  class="paddinglr">
 
               <div class="about-wrapper">
@@ -162,7 +193,7 @@
                     SVG TODO4 ...      
                   </div>
                 </div>
-                <div class="about btin" style="margin-bottom: 100px;">
+                <div class="about">
                   <div class="about-intro-description ">
                     <img src="/images/projects/dogkey/05.gif" alt=""  width="auto" height="430">
                   </div>
@@ -173,188 +204,239 @@
               </div>
               
             </div>
+            <p class="padding-bt"></p>
           </div>
           <div class="groundcolor">
+            <p class="padding-tp"></p>
             <div class="groundcolor paddinglr">
-              <br /><br /><br/>
               Brainstorming
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
+              <p class="centerimg image-wrapper">
 
-              <img class="" src="/images/projects/dogkey/01.png" alt="Homepage" style="margin-bottom: 100px;">
+              <img src="/images/projects/dogkey/01.png" alt="">
               
-              <img class="" src="/images/projects/dogkey/02.png" alt="Homepage" style="margin-bottom: 100px;">
-              
-              <br /><br /><br/>
+              <img src="/images/projects/dogkey/02.png" alt="">
+              </p>
+              <p class="padding-tp"></p>
               Conclusion of brainstorm
-              <img class="" src="/images/projects/dogkey/03.png" alt="Homepage" style="margin-bottom: 100px;">
+              <p class="centerimg image-wrapper">
+              <img src="/images/projects/dogkey/03.png" alt="">
               </p>
             </div>
-            <div class="btpad"> </div>
+            <p class="padding-tp"></p>
           </div>
 
           <div>
-            <div class="paddinglr bt">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               Market Research
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
+              <p class="centerimg image-wrapper">
 
               <img class="" src="/images/projects/dogkey/04.jpg" alt="Homepage">
               </p>
+              <p class="padding-tp"></p>
               {{ page.content_market | markdownify }}
             </div>
+            <p class="padding-bt"></p>
           </div>
           <div class="groundcolor">
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+
+            <div class="paddinglr">
+              
               Quantitative Research
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
+              <p class="centerimg image-wrapper">
               <img class="" src="/images/projects/dogkey/05.png" alt="Homepage">
               </p>
             </div>
-            <div class="btpad"> </div>
+            <p class="padding-tp"></p>
+
           </div>
 
           <div>
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               Qualitative Research
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
+              <p class="centerimg image-wrapper">
                 <img class="" src="/images/projects/dogkey/06.jpg" alt="Homepage">
 
               </p>
               
             </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div class="groundcolor">
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               Persona
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
+              <p class="centerimg image-wrapper">
                 <img class=""  src="/images/projects/dogkey/07.png" alt="Homepage">
-
               </p>
-              
-              <p class="centerimg image-wrapper" style="margin-bottom: 10px;">
-                <img class="" height="auto" width="auto" src="/images/projects/dogkey/08.png" alt="Homepage">
+              <p class="padding-tp"></p>
 
+              <p class="centerimg image-wrapper" >
+                <img class="" height="auto" width="auto" src="/images/projects/dogkey/08.png" alt="Homepage">
               </p>
             </div>
-            <div class="btpad"> </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div>
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               Empathy Map
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
+              <p class="centerimg image-wrapper">
 
-              <img class="" src="/images/projects/dogkey/09.jpg" alt="Homepage">
+              <img src="/images/projects/dogkey/09.jpg" alt="Homepage">
               </p>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div class="groundcolor">
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               STORYBOARD
               <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/10.png" alt="Homepage">
               </figure>
             </div>
-            <div class="btpad"> </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div>
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               Define The Problem
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
-
+              <p class="centerimg image-wrapper">
               <img class="" src="/images/projects/dogkey/11.png" alt="Homepage">
               </p>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div class="groundcolor">
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               Key Features
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/12.png" alt="Homepage">
+              <figure class="image-wrapper "> 
+                <img class="" src="/images/projects/dogkey/12.png" alt="Homepage">
               </figure>
             </div>
-            <div class="btpad"> </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div>
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               Mind Mapping
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
-
+              <p class="centerimg image-wrapper">
               <img class="" src="/images/projects/dogkey/13.jpg" alt="Homepage">
               </p>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div class="groundcolor">
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               UX WORKFLOW
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/14-1.png" alt="Homepage">
+              <figure class="image-wrapper "> 
+                <img class="" src="/images/projects/dogkey/14-1.png" alt="Homepage">
               </figure>
             </div>
-            <div class="btpad"> </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div>
-            <div class="paddinglr bt">
-              <br /><br /><br/>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
               Wireframes
-
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/wireframe.png" alt="Homepage">
+              <figure class="image-wrapper "> 
+                <img class="" src="/images/projects/dogkey/wireframe.png" alt="Homepage">
               </figure>
-              
             </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div class="groundcolor">
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              <br /><br /><br/>
               Design style
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
-
+              <p class="centerimg image-wrapper">
               <img class="" src="/images/projects/dogkey/16.png" alt="Homepage">
               </p>
-              <div class="btpad"> </div>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div>
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              <br /><br /><br/>
               FINAL DESIGN
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
+              <div class="about0">
 
-              <img class="" src="/images/projects/dogkey/final 1.png" alt="Homepage">
-              </p>
+                <div class="prj-intro-description">
+                  todo...
+                </div>
+                <div class="prj-wrapper.prj.prj-intro-image">
+                  <p class="centerimg0 image-wrapper0">
+                    <img class="" src="/images/projects/dogkey/finall 1.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>
+
             </div>
+            <p class="padding-bt"></p>
           </div>
           <div class="groundcolor">
-            <div class="paddinglr">
-            
-              <p class="centerimg image-wrapper" style="margin-bottom: 100px;">
-
-              <img class="" src="/images/projects/dogkey/final 2.png" alt="Homepage">
+            <p class="padding-tp"></p>
+            <div class="paddinglr0">
+              <p class="centerimg image-wrapper">
+              <img class="" src="/images/projects/dogkey/finall 2.png" alt="Homepage">
               </p>
-              <!-- <div class="btpad"> </div> -->
             </div>
+            <p class="padding-bt"></p>
+          </div>
+          <div>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              <p class="centerimg image-wrapper">
+              <img class="" src="/images/projects/dogkey/f3.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              <p class="centerimg image-wrapper">
+              <img class="" src="/images/projects/dogkey/f4.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+          <div>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              <p class="centerimg image-wrapper">
+              <img class="" src="/images/projects/dogkey/f5.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
           </div>
 
-          Reflection
-          <!-- <iframe width="966" height="604" src="https://www.youtube.com/embed/8EmnWqzcDXs" 
-          title="DIETWELL" frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen>
-          </iframe> -->
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <p class="overview-cls paddinglr">
+              Reflection
+            </p>
+            <p style="padding: 1em;"></p>
+            <p class="intro-cls  paddinglr-smaller" >
+              {{ page.refection }}
+            </p> 
+            <p class="padding-bt"></p>
+          </div>
+
         </div>
 
       </section>
