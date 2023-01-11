@@ -53,19 +53,19 @@
 
   .overview-cls {
     color: #000000;
-    font-size: 200%;
+    font-size: 150%;
     word-spacing: 2px;
     letter-spacing: 2px;
-    text-align: left;
+    text-align: center;
     font-weight: 600;
   }
 
+  .paddingl {
+    padding-left: 16%;
+  }
   .paddinglr {
     padding-right: 16%;
     padding-left: 16%;
-    /* padding-top: var(--mg-px); */
-    /* border-top: 1px solid rgb(0,255,0s,); */
-    /* margin-bottom: 0px; */
   }
   .padding-tp {
     padding-top: var(--mg-px);
@@ -128,6 +128,8 @@
       <p class="intro-cls  paddinglr">
         {{ page.title }}
       </p>
+      <p style="padding: 1em;"></p>
+
       <p class=" image-wrapper" > 
         <img  class="paddinglr " style="text-align:center;"  src="/images/projects/dogkey/my role.png">
       </p>
@@ -140,15 +142,17 @@
           <div class="groundcolor">
             <p class="padding-tp"></p>
             <p class="overview-cls paddinglr">
-              Overview
+              OVERVIEW
             </p>
+            <p style="padding: 1em;"></p>
             <p class="intro-cls  paddinglr-smaller" >
               {{ page.overview }}
             </p>
             <div  class="paddinglr-small ">
               <p class="overview-cls " style="padding-top: 0%;">
-                Design Process
+                DESIGN PROCESS
               </p>
+              <br/>
               <p class="centerimg image-wrapper">
 
               <img class="" src="/images/projects/dogkey/001.png" alt="Homepage">
@@ -209,7 +213,9 @@
           <div class="groundcolor">
             <p class="padding-tp"></p>
             <div class="groundcolor paddinglr">
-              Brainstorming
+              <p class="overview-cls paddinglr">
+                BRAINSTORMING
+              </p><br/><br/>
               <p class="centerimg image-wrapper">
 
               <img src="/images/projects/dogkey/01.png" alt="">
@@ -217,7 +223,10 @@
               <img src="/images/projects/dogkey/02.png" alt="">
               </p>
               <p class="padding-tp"></p>
-              Conclusion of brainstorm
+              <p class="paddinglr"  style="text-align: center; font-size: larger; font-weight:600;letter-spacing: 2px;">
+                Conclusion of brainstorming  
+              </p><br/><br/>
+              
               <p class="centerimg image-wrapper">
               <img src="/images/projects/dogkey/03.png" alt="">
               </p>
@@ -228,22 +237,39 @@
           <div>
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              Market Research
+              <p class="overview-cls paddinglr">
+                MARKET RESEARCH
+              </p><br/><br/>
               <p class="centerimg image-wrapper">
 
               <img class="" src="/images/projects/dogkey/04.jpg" alt="Homepage">
               </p>
-              <p class="padding-tp"></p>
-              {{ page.content_market | markdownify }}
+
             </div>
+            <p class="padding-tp"></p>
+            <p class="paddinglr"  
+            style="text-align: center; font-size: larger; font-weight:600;letter-spacing: 2px;">
+              Conclusion of market research
+            </p>
+            <p style="padding: 1em;"></p>
+            <p class="intro-cls  paddinglr-smaller">
+              {{ page.content_market  }}
+            </p>
             <p class="padding-bt"></p>
           </div>
           <div class="groundcolor">
             <p class="padding-tp"></p>
-
+            <p class="overview-cls paddinglr">
+              QUANTITATIVE RESEARCH
+            </p>
+            <p style="padding: 1em;"></p>
+            <p class="intro-cls  paddinglr-smaller" >
+              I sent out around 58 questionnaires asking pet owners' pain points.
+              Our questions are about choosing 3 attributes 
+              you care about the most when the pets are left home alone.
+              Below are the results.<br/><br/>
+            </p>
             <div class="paddinglr">
-              
-              Quantitative Research
               <p class="centerimg image-wrapper">
               <img class="" src="/images/projects/dogkey/05.png" alt="Homepage">
               </p>
@@ -255,7 +281,10 @@
           <div>
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              Qualitative Research
+              <p class="overview-cls paddinglr">
+                QUALITATIVE RESEARCH
+              </p><br/><br/>
+              
               <p class="centerimg image-wrapper">
                 <img class="" src="/images/projects/dogkey/06.jpg" alt="Homepage">
 
@@ -268,7 +297,10 @@
           <div class="groundcolor">
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              Persona
+              <p class="overview-cls paddinglr">
+                PERSONA
+              </p><br/><br/>
+              
               <p class="centerimg image-wrapper">
                 <img class=""  src="/images/projects/dogkey/07.png" alt="Homepage">
               </p>
@@ -284,7 +316,10 @@
           <div>
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              Empathy Map
+              <p class="overview-cls paddinglr">
+                EMPATHY MAP
+              </p><br/><br/>
+              
               <p class="centerimg image-wrapper">
 
               <img src="/images/projects/dogkey/09.jpg" alt="Homepage">
@@ -296,8 +331,11 @@
           <div class="groundcolor">
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              STORYBOARD
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/10.png" alt="Homepage">
+              <p class="overview-cls paddinglr">
+                STORYBOARD
+              </p><br/><br/>
+              
+              <figure class="centerimg image-wrapper "> <img class="" src="/images/projects/dogkey/10.png" alt="Homepage">
               </figure>
             </div>
             <p class="padding-bt"></p>
@@ -306,7 +344,11 @@
           <div>
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              Define The Problem
+              
+              <p class="overview-cls paddinglr">
+                DEFINE THE PROBLEM
+              </p><br/><br/>
+              
               <p class="centerimg image-wrapper">
               <img class="" src="/images/projects/dogkey/11.png" alt="Homepage">
               </p>
@@ -317,7 +359,10 @@
           <div class="groundcolor">
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              Key Features
+              
+              <p class="overview-cls paddinglr">
+                KEY FEATURES
+              </p><br/><br/>
               <figure class="image-wrapper "> 
                 <img class="" src="/images/projects/dogkey/12.png" alt="Homepage">
               </figure>
@@ -328,7 +373,10 @@
           <div>
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              Mind Mapping
+              
+              <p class="overview-cls paddinglr">
+                MIND MAPPING
+              </p><br/><br/>
               <p class="centerimg image-wrapper">
               <img class="" src="/images/projects/dogkey/13.jpg" alt="Homepage">
               </p>
@@ -339,7 +387,10 @@
           <div class="groundcolor">
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              UX WORKFLOW
+              
+              <p class="overview-cls paddinglr">
+                UX WORKFLOW
+              </p><br/><br/>
               <figure class="image-wrapper "> 
                 <img class="" src="/images/projects/dogkey/14-1.png" alt="Homepage">
               </figure>
@@ -350,7 +401,10 @@
           <div>
             <p class="padding-tp"></p>
             <div class="paddinglr">
-              Wireframes
+              
+              <p class="overview-cls paddinglr">
+                WIREFRAMES
+              </p><br/><br/>
               <figure class="image-wrapper "> 
                 <img class="" src="/images/projects/dogkey/wireframe.png" alt="Homepage">
               </figure>
@@ -360,9 +414,11 @@
 
           <div class="groundcolor">
             <p class="padding-tp"></p>
-            <div class="paddinglr">
-              Design style
-              <p class="centerimg image-wrapper">
+            <div class="paddinglr">                 
+              <p class="overview-cls paddinglr">
+                DESIGN STYLE
+              </p><br/><br/>
+              <p class="centerimg image-wrapper" style="width: 70%;">
               <img class="" src="/images/projects/dogkey/16.png" alt="Homepage">
               </p>
             </div>
@@ -371,64 +427,212 @@
 
           <div>
             <p class="padding-tp"></p>
-            <div class="paddinglr">
-              FINAL DESIGN
-              <div class="about0">
+            <p class="overview-cls">FINAL DESIGN</p>
+            <br/><br/><br/><br/>
+            <div class="paddingl">
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p style="color: rgb(97, 98, 98); font-weight: normal;letter-spacing: 1px;">
+                    Feature 1 # Pain Point 1<br/>
+                  </p>
+                  <p style="color: #17e3f0; font-weight: normal;letter-spacing: 1px;">
+                    <i>"not enough time with their dog</i><br/><br/>
+                  </p>
+                  <p style="font-size: larger; font-weight:600;letter-spacing: 1.5px;">
+                    Real-time Interaction
+                  </p>
+                  <p style="height: 0.5em;"></p>
+                  <ul style="font-size: small;letter-spacing: 1px;">
+                    <li>
+                    Real-time monitoring of dog activities: The app will immediately notify the pet owner to check if abnormal behavior is found.
+                    </li>
+                    <li>
+                      Dog owners can make video calls with their dogs anytime, anywhere, and at the same time, add filters and special effects to make video calls full of fun.
 
-                <div class="prj-intro-description">
-                  todo...
+                    </li>
+                    <li>
+                      The recording video function supports online editing and one-click upload to my profile so you can revisit these memories forever.
+                    </li>
+                    <li>
+                      Does the dog have too much energy to release? The play function supports pet owners in remotely choosing toys to play with their dogs to relieve their anxiety and depression when alone.
+
+                    </li>
+
+                  </ul>
                 </div>
-                <div class="prj-wrapper.prj.prj-intro-image">
-                  <p class="centerimg0 image-wrapper0">
-                    <img class="" src="/images/projects/dogkey/finall 1.png" alt="Homepage">
+                <div class="griddiv-right ">
+                  <p>
+                    <img class="" src="/images/projects/dogkey/final 1.png" alt="Homepage">
                   </p>
                 </div>
-              </div>
+              </div>                
+            </div>
+            <p class="padding-bt"></p>
+          </div>
 
+          
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddingl">
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p style="color: rgb(97, 98, 98); font-weight: normal;letter-spacing: 1px;">
+                    Feature 2 # Pain Point 2<br/>
+                  </p>
+                  <p style="color: #17e3f0; font-weight: normal;letter-spacing: 1px;">
+                    <i>"can't check the dog's activities and behaviors</i><br/><br/>
+                  </p>
+                  <p style="font-size: larger; font-weight:600;letter-spacing: 1.5px;">
+                    Activity Sensing
+                  </p>
+                  <p style="height: 0.5em;"></p>
+                  <ul style="font-size: small;letter-spacing: 1px;">
+                    <li>
+                      The AI camera automatically selects the last recognized activity and sends it to the home page whenever the dog owner opens the app.
+                    </li>
+                    <li>
+                      With an intelligent classification of dog activities, dog owners can quickly get the daily behavior of dogs at home by watching historical activity videos.
+                    </li>
+                    <li>
+                      All historical activity videos are stored in the cloud, and dog owners can edit, download, share or upload them to my profile and other social media platforms.
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="griddiv-right-small ">
+                  <p>
+                    <img class="" src="/images/projects/dogkey/final 2.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>                
             </div>
             <p class="padding-bt"></p>
           </div>
-          <div class="groundcolor">
+
+          <div>
             <p class="padding-tp"></p>
-            <div class="paddinglr0">
-              <p class="centerimg image-wrapper">
-              <img class="" src="/images/projects/dogkey/finall 2.png" alt="Homepage">
-              </p>
+            <div class="paddingl">
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p style="color: rgb(97, 98, 98); font-weight: normal;letter-spacing: 1px;">
+                    Feature 3 # Pain Point 3<br/>
+                  </p>
+                  <p style="color: #17e3f0; font-weight: normal;letter-spacing: 1px;">
+                    <i>"can't feed the dog on time</i><br/><br/>
+                  </p>
+                  <p style="font-size: larger; font-weight:600;letter-spacing: 1.5px;">
+                    Smart feeding
+                  </p>
+                  <p style="height: 0.5em;"></p>
+                  <ul style="font-size: small;letter-spacing: 1px;">
+                    <li>
+                      Personalized recommendation of the dog's diet plan based on the dog's age, breed, weight, and physical fitness, and display the daily completion percentage.                    
+                    </li>
+                    <li>
+                      It can automatically feed the dog according to the dog owner's set, supports remote mental feeding, and treats rewards.
+                    </li>
+                    <li>
+                      Keep a record of your dog's appetite: when and how much your dog eats and drink.
+                    </li>
+                  </ul>
+                </div>
+                <div class="griddiv-right-small ">
+                  <p>
+                    <img class="" src="/images/projects/dogkey/final 3.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>                
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div  class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddingl">
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p style="color: rgb(97, 98, 98); font-weight: normal;letter-spacing: 1px;">
+                    Feature 4 # Pain Point 4<br/>
+                  </p>
+                  <p style="color: #17e3f0; font-weight: normal;letter-spacing: 1px;">
+                    <i>"worry about the dog's health indicators</i><br/><br/>
+                  </p>
+                  <p style="font-size: larger; font-weight:600;letter-spacing: 1.5px;">
+                    Health Monitoring
+                  </p>
+                  <p style="height: 0.5em;"></p>
+                  <ul style="font-size: small;letter-spacing: 1px;">
+                    <li>
+                      Tracking the dog's fitness, exercise volume, sleep analysis, heart rate, and body temperature.
+                    </li>
+                    <li>
+                      Personalized recommendation of the dog's exercise plan based on the dog's age, breed, weight, and physical fitness, and display the daily wellness score.
+                    </li>
+                    <li>
+                      GPS map positioning can display the dog's location in real-time and generate a sports achievement route, which helps dog owners complete their dog's daily fitness plan.
+                    </li>
+                    <li>
+                      Comparing health indicators helps owners understand their dog's physical and emotional status and improve it in time.
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="griddiv-right ">
+                  <p>
+                    <img class="" src="/images/projects/dogkey/final 4.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>                
             </div>
             <p class="padding-bt"></p>
           </div>
           <div>
             <p class="padding-tp"></p>
-            <div class="paddinglr">
-              <p class="centerimg image-wrapper">
-              <img class="" src="/images/projects/dogkey/f3.png" alt="Homepage">
-              </p>
+            <div class="paddingl">
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p style="color: rgb(97, 98, 98); font-weight: normal;letter-spacing: 1px;">
+                    Feature 5 # Pain Point 5<br/>
+                  </p>
+                  <p style="color: #17e3f0; font-weight: normal;letter-spacing: 1px;">
+                    <i>"feel guilty for missing the dog's moments</i><br/><br/>
+                  </p>
+                  <p style="font-size: larger; font-weight:600;letter-spacing: 1.5px;">
+                    Dog's Profile
+                  </p>
+                  <p style="height: 0.5em;"></p>
+                  <ul style="font-size: small;letter-spacing: 1px;">
+                    <li>
+                      Pet owners can upload videos of their dogs to record their special moments and save precious memories.
+                    </li>
+                    <li>
+                      Create classification tags to revisit the corresponding video quickly.
+                    </li>
+                    <li>
+                      An activity check-in challenge was set up to encourage pet owners to spend more time with their dogs, and medals were awarded for the achievements achieved.
+                    </li>
+                    <li>
+                      Please look at your dog's weekly health report, which includes diet, exercise, and physical and emotional.
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="griddiv-right-small ">
+                  <p>
+                    <img class="" src="/images/projects/dogkey/final 5.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>                
             </div>
             <p class="padding-bt"></p>
           </div>
-          <div class="groundcolor">
-            <p class="padding-tp"></p>
-            <div class="paddinglr">
-              <p class="centerimg image-wrapper">
-              <img class="" src="/images/projects/dogkey/f4.png" alt="Homepage">
-              </p>
-            </div>
-            <p class="padding-bt"></p>
-          </div>
-          <div>
-            <p class="padding-tp"></p>
-            <div class="paddinglr">
-              <p class="centerimg image-wrapper">
-              <img class="" src="/images/projects/dogkey/f5.png" alt="Homepage">
-              </p>
-            </div>
-            <p class="padding-bt"></p>
-          </div>
+
+  
 
           <div class="groundcolor">
             <p class="padding-tp"></p>
             <p class="overview-cls paddinglr">
-              Reflection
+              REFLECTION
             </p>
             <p style="padding: 1em;"></p>
             <p class="intro-cls  paddinglr-smaller" >

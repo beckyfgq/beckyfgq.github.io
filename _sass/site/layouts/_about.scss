@@ -30,7 +30,7 @@
 
       @include grid-media(tablet) {
         grid-row: 1;
-        @include grid-column-from-to(2,8);
+        @include grid-column-from-to(2,6);
       }
 
       @include grid-media(desktop) {

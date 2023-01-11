@@ -114,7 +114,7 @@
 
 
       @include grid-media(tablet) {
-        @include grid-column-from-to(7,12);
+        @include grid-column-from-to(7,11);
       }
 
     }
@@ -150,4 +150,40 @@
       margin-bottom: .5rem;
     }
   }
+}
+
+
+@mixin grid-container-gq {
+  @include grid-base;
+  margin-right: var(--page-margin);
+
+  @include grid-media(tablet) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+.grid-container-gq { //Use for extend
+  @include grid-container-gq;
+}
+
+.griddiv {
+  @extend .grid-container-gq;
+
+  .griddiv-right {
+    grid-row: 1;
+    @include grid-column-from-to(5,12);
+  }
+  .griddiv-right-small {
+    grid-row: 1;
+    @include grid-column-from-to(5,10);
+  }
+
+  .griddiv-left {
+    grid-row: 1;
+    @include grid-column-from-to(1,4);
+    @include grid-media(tablet) {
+      grid-row: 1;
+      @include grid-column-from-to(1,4);
+    }
+  }
+  
 }
