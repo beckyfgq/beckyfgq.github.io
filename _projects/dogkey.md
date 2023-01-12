@@ -17,7 +17,7 @@ title: |
     DOGKEY is an IoT smart home app that protects the dog's physical and mental health when the owner is not at home. 
 overview: |
     Since Covid-19, more and more high-income young people are opting for a dog as an alternative to their lives, and they regard the dog as part of the family. So when the dog is alone at home, they worry about the dog's emotions, want to know what the dog is doing at home, and want to keep abreast of the dog's physical condition.<br/> 
-    So DOGKEY is here. It can make real-time video calls and interactions, identify the dog activities and give early warnings, feed the dog intelligently and scientifically, monitor the dog's physical indicators, and provide suggestions for improvement.
+    <strong style="color:#17e3f0">So DOGKEY is here</strong>. It can make <strong style="color:#17e3f0">real-time</strong> video calls and interactions, <strong style="color:#17e3f0">identify</strong> the dog activities and give early warnings, <strong style="color:#17e3f0">feed</strong> the dog intelligently and scientifically, <strong style="color:#17e3f0">monitor</strong> the dog's physical indicators, and <strong style="color:#17e3f0">save</strong> the dog's profile for revisiting them easily.
 content_market: |
     
     🌻 Nowadays, <strong style="color:#17e3f0">the Chinese pet market size is rapidly expanding</strong>.
