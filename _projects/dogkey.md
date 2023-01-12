@@ -37,7 +37,7 @@ refection: |
     of capturing research data and understood how different the insights from it could be 
     from user interviews. It's all about using the <strong style="color:#17e3f0">right method</strong> for a problem! 
     <br/><br/>
-    ⭐ If I have more time, I'd like to be able to conduct <strong style="color:#17e3f0">user testing</strong> and <strong style="color:#17e3f0">commercial</strong> 
+    🌟 If I have more time, I'd like to be able to conduct <strong style="color:#17e3f0">user testing</strong> and <strong style="color:#17e3f0">commercial</strong> 
     viability investigations, and I'd like to know how easy it is 
     to implement these product features on a <strong style="color:#17e3f0">technical level</strong>.
 
