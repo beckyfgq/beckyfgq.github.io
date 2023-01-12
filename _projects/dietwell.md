@@ -2,33 +2,19 @@
 published: true
 media: Website
 layout: dietwell
-# date: 2017-6-1
-# title: "Ski Solutions0"
-# description: "Responsive experience redesign for a tailor-made ski tour operator"
-# categories: website, ux, mobile
-# disciplines: UX, Responsive web design, HTML/CSS
-# ownership:
-# client: Ski Solutions
-# time_period: 2017
-# thumbnail: "/projects/ski-solutions/plist-ski-solutions.jpg"
+title: |
+  A mobile app designed for people with food intolerances to rediscover delicious recipes and the relationship between food and the body.
 overview: |
     
-    DOGKEY<br/>
-
-    Guaranteed Your Love for Pet Dogs<br/>
-
-    DOGKEY is an IoT smart home app that protects the dog's physical and mental health when the owner is not at home. Since Covid-19, more and more high-income young people are opting for a dog as an alternative to their lives, and they regard the dog as part of the family. So when the dog is alone at home, they worry about the dog's emotions, want to know what the dog is doing at home, and want to keep abreast of the dog's physical condition.<br/> 
-    So DOGKEY is here. It can make real-time video calls and interactions, identify the dog activities and give early warnings, feed the dog intelligently and scientifically, monitor the dog's physical indicators, and provide suggestions for improvement.
+    The food we eat can affect our health and mood, especially for people with food intolerances. However, many people are unaware of their sensitivity toward specific food and continue eating it, which can subtly affect gut health and cause chronic inflammation, eventually developing into chronic diseases. So I designed the DietWell app to help people identify food intolerances and recommend recipes for those with food sensitivities. People can also join communities on different topics to discuss diet and health issues.
 content_market: |
-    Conclusion of Market Research
-              Nowadays, the Chinese pet market size is rapidly expanding.
-    Especially since covid-19, pets have been regarded as a kind of spiritual companion, 
-    so more and more Chinese families choose to keep pets. 
+    The food we eat can affect our health and mood, especially for people with food intolerances. However, many people are unaware of their sensitivity toward specific food and continue eating it, which can subtly affect gut health and cause chronic inflammation, eventually developing into chronic diseases. So I designed the DietWell app to help people identify food intolerances and recommend recipes for those with food sensitivities. People can also join communities on different topics to discuss diet and health issues.
 
-    Most Chinese pet owners are between the age of 25-40 and located in first and second-tier cities.
-    They tend to have higher incomes (66% of those with a monthly salary of more than 8,000 yuan) 
-    and better educational degrees (65.2% of those with college and master's degrees).
+refection1: |
+  My most significant learning from this project was user research and identified needs. Although it is difficult at the beginning, the answer is evident after doing it step by step. Each function is not imagined out of thin air but based on the previous actions, so it is logical. At the same time, I am a designer, not an artist, and I realize that I need to focus on users' needs and design good products for them instead of my thoughts.
 
+refection2: |
+  The next consideration is how to improve the enthusiasm and quality of creators. The platform may invite some well-known nutritionists to settle in and reward excellent creators who post. At the same time, how to market and monetize the function of food journaling is also a point worth considering, which requires technical investment.
 
 # intro: |
 

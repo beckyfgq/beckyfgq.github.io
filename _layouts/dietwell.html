@@ -11,7 +11,7 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=DM+Serif+Display&display=swap">
   <link rel="canonical" href="http://beckyfgq.github.io/projects/dogkey/">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
   <link rel="manifest" href="/images/favicons/manifest.json">
@@ -33,6 +33,10 @@
 </head>
 
 <style type="text/css">
+  :root {
+    --mg-px: 10%
+  }
+  
   .intro-cls {
     /* max-width: 750px; */
     font-size: 16px;
@@ -49,17 +53,39 @@
 
   .overview-cls {
     color: #000000;
-    font-size: 200%;
+    font-size: 150%;
     word-spacing: 2px;
     letter-spacing: 2px;
-    text-align: left;
+    text-align: center;
     font-weight: 600;
   }
 
+  .paddingl {
+    padding-left: 16%;
+  }
   .paddinglr {
     padding-right: 16%;
     padding-left: 16%;
-    padding-top: 5%;
+  }
+  .padding-tp {
+    padding-top: var(--mg-px);
+  }
+  .padding-bt {
+    padding-bottom: var(--mg-px);
+  }
+  .paddinglr-smaller {
+    padding-right: 16%;
+    padding-left: 16%;
+    padding-top: 0%;
+    /* border-top: 1px solid rgb(0,255,0,); */
+    margin-bottom: 25px;
+  }
+  .paddinglr-small {
+    padding-right: 16%;
+    padding-left: 16%;
+    padding-top: 7%;
+    border-top: 1px solid rgb(0,255,0,);
+    margin-bottom: 25px;
   }
   .groundcolor{
     background-color: #f6f5f5
@@ -70,6 +96,38 @@
     text-align: center;
     /* vertical-align: middle; */
   }
+  .bt {
+    border-top: 1px solid rgb(0,255,0,);
+    margin-bottom: 160px;
+  }
+  .btin {
+    border-top: 1px solid rgb(0,255,0,);
+    margin-bottom: 200px;
+  }
+  .btpad {
+    /* height: 100px; */
+    padding-bottom: var(--mg-px);
+  }
+  .centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  }
+
+  .centerimg1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .centerimg-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 4%;
+  }
+
 
 </style>
 
@@ -78,174 +136,691 @@
     {% include header.html %}
     <div>
       <figure class="image-wrapper " > <img class=""
-          src="/images/projects/dogkey/dog-1.jpg" alt="Homepage">
+          src="/images/projects/dietwell/cover.jpg" alt="Homepage">
       </figure>
-      <p class="overview-cls paddinglr">
-        <br /><br /><br/>
-        Overview
+      <p class="padding-tp"></p>
+      <p> 
+        <img  class="centerimg-logo"  src="/images/projects/dietwell/logo.png" alt="logo">
       </p>
+      <!-- <p class="padding-tp"></p> -->
+      <p style="padding: 1em;"></p>
       <p class="intro-cls  paddinglr">
-        {{ page.overview }}
+        {{ page.title }}
       </p>
-      <p class=" image-wrapper"> 
-        <img  class="paddinglr" style="text-align:center;"  src="/images/projects/dogkey/my role.png" alt="Homepage">
+      <p style="padding: 1em;"></p>
+
+      <p class=" image-wrapper" > 
+        <img  class="paddinglr " style="text-align:center;"  src="/images/projects/dietwell/00.png">
       </p>
+      <p class="padding-bt"></p>
     </div>
-    <div style="height: 30px;"></div>
     <main class="prj-wrapper" id="maincontent">
       <section>
         <div>
 
           <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <p class="overview-cls paddinglr">
+              OVERVIEW
+            </p>
+            <p style="padding: 1em;"></p>
+            <p class="intro-cls  paddinglr-smaller" >
+              {{ page.overview }}
+            </p>
+            <div  class="paddinglr-small ">
+              <p class="overview-cls " style="padding-top: 0%;">
+                DESIGN PROCESS
+              </p>
+              <br/>
+              <p class="centerimg image-wrapper">
+
+              <img class="" src="/images/projects/dogkey/001.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div>
+            <p class="padding-tp"></p>
+            <p class="overview-cls" style="color:#4ad4a4">
+              What can you do with the DietWell app?
+            </p>
+            <p class="padding-tp"></p>
             <div  class="paddinglr">
-              Design Process
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/001.jpg" alt="Homepage">
-              </figure>
+              <div class="about-wrapper">
+                <div class="about btin">
+                  <div class="about-intro-description ">
+                    <img src="/images/projects/dietwell/g01.gif" class="centerimg1" alt=""  width="auto" height="430">
+                  </div>
+                  <div class="about-intro-image aboutme-words0 " >
+                    <p style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">  
+                    01 <br/>
+                    Real-time Interaction
+                    </p>
+                    <p style="padding: 0.5em;"></p>
+                    <p class="intro-cls">
+                    Video call with filters and effects, double fun
+                    </p>
+                  </div>
+                </div>
+                <div class="about">
+                  <div class="about-intro-description ">
+                    <img src="/images/projects/dietwell/g02.gif" alt="" class="centerimg1"  width="auto" height="430">
+                  </div>
+                 
+                  <div class="about-intro-image aboutme-words0 " >
+                    <p style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">  
+                    02 <br/>
+                    Activity Sensing
+                    </p>
+                    <p style="padding: 0.5em;"></p>
+                    <p class="intro-cls">
+                      identify the dog's daily behavior and give early warnings
+                    </p>
+                  </div>
+              </div>
             </div>
+            <p class="padding-bt"></p>
+
           </div>
-          <div >
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
             <div  class="paddinglr">
-              SVG TODO ...
-              <!-- <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/001.jpg" alt="Homepage"> -->
-              <!-- </figure> -->
+              <div class="about-wrapper">
+                <div class="about btin">
+                  <div class="about-intro-description ">
+                    <img src="/images/projects/dietwell/g03.gif" alt="" class="centerimg1"  width="auto" height="430">
+                  </div>
+                  
+                  <div class="about-intro-image aboutme-words0 " >
+                    <p style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">  
+                    03 <br/>
+                    Smart Feeding
+                    </p>
+                    <p style="padding: 0.5em;"></p>
+                    <p class="intro-cls">
+                      good appetite, good body
+                    </p>
+                  </div>
+                </div>
+                <div class="about">
+                  <div class="about-intro-description ">
+                    <img src="/images/projects/dietwell/g04.gif" alt="" class="centerimg1"  width="auto" height="430">
+                  </div>
+                  
+                  <div class="about-intro-image aboutme-words0 " >
+                    <p style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">  
+                    04 <br/>
+                    Health Monitoring
+                    </p>
+                    <p style="padding: 0.5em;"></p>
+                    <p class="intro-cls">
+                      data tracking and physical indicator monitoring
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="groundcolor">
-            <div class="paddinglr">
-              Brainstorming
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/01.jpg" alt="Homepage">
-              </figure>
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/02.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
+            <p class="padding-bt"></p>
 
-          <div class="groundcolor">
-            <div class="paddinglr">
-              Conclusion of brainstorm
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/03.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          <div>
-            <div class="paddinglr">
-              Market Research
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/04.jpg" alt="Homepage">
-              </figure>
-              {{ page.content_market | markdownify }}
-            </div>
-          </div>
-          <div class="groundcolor">
-            <div class="paddinglr">
-              Quantitative Research
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/05.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          <div>
-            <div class="paddinglr">
-              Qualitative Research
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/06.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          <div class="groundcolor">
-            <div class="paddinglr">
-              Persona
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/07.jpg" alt="Homepage">
-              </figure>
-
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/08.jpg" alt="Homepage">
-              </figure>
-            </div>
           </div>
 
           <div>
-            <div class="paddinglr">
-              Empathy Map
-
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/09.jpg" alt="Homepage">
-              </figure>
+            <p class="padding-tp"></p>
+            <div  class="paddinglr">
+              <div class="about-wrapper">
+                <div class="about btin">
+                  <div class="about-intro-description ">
+                    <img src="/images/projects/dietwell/g05.gif" alt="" class="centerimg1"  width="auto" height="430">
+                  </div>
+                  
+                  <div class="about-intro-image aboutme-words0 " >
+                    <p style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">  
+                    05 <br/>
+                    Smart Feeding
+                    </p>
+                    <p style="padding: 0.5em;"></p>
+                    <p class="intro-cls">
+                      good appetite, good body
+                    </p>
+                  </div>
+                </div>
+                <div class="about">
+                  <div class="about-intro-description ">
+                    <img src="/images/projects/dietwell/g06.gif" alt="" class="centerimg1"  width="auto" height="430">
+                  </div>
+                  
+                  <div class="about-intro-image aboutme-words0 " >
+                    <p style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">  
+                    06 <br/>
+                    Health Monitoring
+                    </p>
+                    <p style="padding: 0.5em;"></p>
+                    <p class="intro-cls">
+                      data tracking and physical indicator monitoring
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
+
           <div class="groundcolor">
-            <div class="paddinglr">
-              STORYBOARD
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/10.jpg" alt="Homepage">
-              </figure>
+            <p class="padding-tp"></p>
+            <div class="groundcolor paddinglr">
+              <p class="overview-cls paddinglr">
+                BRAINSTORMING
+              </p><br/><br/>
+              <p class="centerimg image-wrapper">
+
+              <img src="/images/projects/dietwell/brainstorm.png" alt="">
+              </p>
+              <p class="padding-tp"></p>
+              <p class="paddinglr"  style="text-align: center; font-size: larger; font-weight:600;letter-spacing: 2px;">
+                Conclusion of brainstorming  
+              </p><br/><br/>
+              <p class="centerimg image-wrapper">
+              <img src="/images/projects/dietwell/brainstorm conclusion.png" alt="">
+              </p>
+
+              
             </div>
+            <p class="padding-tp"></p>
           </div>
 
           <div>
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              Define The Problem
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/11.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
+              <p class="overview-cls paddinglr">
+                MARKET RESEARCH
+              </p><br/><br/>
+              <p class="centerimg image-wrapper">
 
-          <div class="groundcolor">
-            <div class="paddinglr">
-              Key Features
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/12.jpg" alt="Homepage">
-              </figure>
+              <img class="" src="/images/projects/dietwell/market research.png" alt="Homepage">
+              </p>
+
             </div>
+            <p class="padding-tp"></p>
+            <p class="paddinglr"  
+            style="text-align: center; font-size: larger; font-weight:600;letter-spacing: 2px;">
+              Conclusion of market research
+            </p>
+            <p style="padding: 1em;"></p>
+            <p class="intro-cls  paddinglr-smaller">
+              {{ page.content_market  }}
+            </p>
+            <p class="padding-bt"></p>
+          </div>
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <p class="overview-cls paddinglr">
+              QUANTITATIVE RESEARCH
+            </p>
+            <p style="padding: 1em;"></p>
+            <p class="intro-cls  paddinglr-smaller" >
+              we sent out around 39 surveys asking people who suspected they had a food intolerance. 
+From the results, we find that these people most want:<br/><br/>
+            </p>
+            <div class="paddinglr">
+              <p class="centerimg image-wrapper">
+              <img class="" src="/images/projects/dietwell/survey1.png" alt="Homepage">
+              </p>
+              <p style="padding: 2em;"></p>
+
+            </div>
+            <p class="intro-cls  paddinglr-smaller" >
+              we sent out around 23 surveys asking people diagnosed with food intolerances and persisting in this lifestyle.
+            </p>
+            <div class="paddinglr">
+
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p class="centerimg image-wrapper">
+                    <img class="" src="/images/projects/dietwell/survey2.png" alt="Homepage">
+                  </p>
+                </div>
+                <div class="griddiv-right">
+                  <p class="intro-cls  paddinglr-smaller" >
+                    of them would be willing to share their experience with others to help other people to feel better with food intolerances.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <p class="padding-tp"></p>
+
           </div>
 
           <div>
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              Mind Mapping
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/13.jpg" alt="Homepage">
-              </figure>
+              <p class="overview-cls paddinglr">
+                COMPETITIVE RESEARCH
+              </p><br/><br/>
+              
+              <p class="centerimg image-wrapper">
+                <img class="" src="/images/projects/dietwell/competiive.png" alt="Homepage">
+
+              </p>
+              
             </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div class="groundcolor">
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              UX WORKFLOW
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/14.jpg" alt="Homepage">
-              </figure>
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/14-1.png" alt="Homepage">
-              </figure>
+              <p class="overview-cls paddinglr">
+                QUALITATIVE RESEARCH
+              </p><br/><br/>
+              
+              <p class="centerimg image-wrapper">
+                <img class="" src="/images/projects/dietwell/interview.png" alt="Homepage">
+
+              </p>
+              
             </div>
+            <p class="padding-bt"></p>
           </div>
 
-          <div>
+          <div class="">
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              Wireframes
-
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/17.jpg" alt="Homepage">
-              </figure>
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/17-1.png" alt="Homepage">
-              </figure>
+              <p class="overview-cls paddinglr">
+                PERSONA
+              </p><br/><br/>
+              
+              <p class="centerimg image-wrapper">
+                <img class=""  src="/images/projects/dietwell/persona.png" alt="Homepage">
+              </p>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div class="groundcolor">
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              Design style
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/16.jpg" alt="Homepage">
-              </figure>
+              <p class="overview-cls paddinglr">
+                EMPATHY MAP
+              </p><br/><br/>
+              
+              <p class="centerimg image-wrapper">
+
+              <img src="/images/projects/dietwell/empathy.png" alt="Homepage">
+              </p>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
-          <div>
+          <div class="">
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              FINAL DESIGN
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/18.jpg" alt="Homepage">
+              <p class="overview-cls paddinglr">
+                STORYBOARD
+              </p><br/><br/>
+              
+              <figure class="centerimg image-wrapper "> <img class="" src="/images/projects/dietwell/storyboard.png" alt="Homepage">
               </figure>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
-          Reflection
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              
+              <p class="overview-cls paddinglr">
+                DEFINE THE PROBLEM
+              </p><br/><br/>
+              
+              <p class="centerimg image-wrapper">
+              <img class="" src="/images/projects/dietwell/define.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              
+              <p class="overview-cls paddinglr">
+                KEY FEATURES
+              </p><br/><br/>
+              <figure class="image-wrapper "> 
+                <img class="" src="/images/projects/dietwell/keyfeatures.png" alt="Homepage">
+              </figure>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              
+              <p class="overview-cls paddinglr">
+                MIND MAPPING
+              </p><br/><br/>
+              <p class="centerimg image-wrapper">
+              <img class="" src="/images/projects/dietwell/mind mapping.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              
+              <p class="overview-cls paddinglr">
+                UX WORKFLOW
+              </p><br/><br/>
+              <figure class="image-wrapper "> 
+                <img class="" src="/images/projects/dietwell/workflow.png" alt="Homepage">
+              </figure>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              
+              <p class="overview-cls paddinglr">
+                WIREFRAMES
+              </p><br/><br/>
+              <figure class="image-wrapper "> 
+                <img class="" src="/images/projects/dietwell/app ia.png" alt="Homepage">
+              </figure>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">                 
+              <p class="overview-cls paddinglr">
+                SKETCH
+              </p><br/><br/>
+              <p class="centerimg image-wrapper" style="width: 70%;">
+              <img class="" src="/images/projects/dietwell/sketch.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              
+              <p class="overview-cls paddinglr">
+                WIREFRAMES
+              </p><br/><br/>
+              <figure class="image-wrapper "> 
+                <img class="" src="/images/projects/dietwell/wireframe.png" alt="Homepage">
+              </figure>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">                 
+              <p class="overview-cls paddinglr">
+                USER TESTING FEEDBACK
+              </p><br/><br/>
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p>
+                    <ul>
+                      <li>
+                        It's easy to search the food intolerance recipes according to filters.
+                      </li>
+                      <li>
+                        It's clear to see recipe information by adding clue icons.
+                      </li>
+                      <li>
+                        I like the search box in the creator's home.
+                      </li>
+                      <li>
+                        I love the community function and want to find healthy answers here.
+                      </li>
+                      <li>
+                        It's convenient to check food journals by viewing monthly records.
+                      </li>
+                      <li>
+                        I appreciate the food journaling function since it's really helpful to find food allergies.
+                      </li>
+                    </ul>
+                  </p>
+
+                </div>
+                <div class="griddiv-right">
+                  <p class="centerimg image-wrapper">
+                    <img class="" src="/images/projects/dietwell/test 1.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">                 
+              <p class="overview-cls paddinglr">
+                DESIGN STYLE
+              </p><br/><br/>
+              <p class="centerimg image-wrapper" style="width: 50%;">
+              <img class="" src="/images/projects/dietwell/design style.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+
+          <div class="groundcolor0">
+            <p class="padding-tp"></p>
+            <p class="overview-cls">FINAL DESIGN</p>
+            <br/><br/><br/><br/>
+            <p class="overview-cls">
+              <iframe width="703" height="395" src="https://www.youtube.com/embed/fOYbN-4GIr8" title="DietWell" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </p>
+            <p class="padding-tp"></p>
+
+            <!-- <p style="padding: 1em;"></p> -->
+            <div class="paddingl">
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p style="color: rgb(97, 98, 98); font-weight: normal;letter-spacing: 1px;">
+                    Solution 1 -> user goal 1<br/>
+                  </p>
+                  <p style="color: #4ad4a4; font-weight: normal;letter-spacing: 1px;">
+                    <i>"how to diversify food intolerance diet</i><br/><br/>
+                  </p>
+                
+                  <p style="font-size: larger; font-weight:600;letter-spacing: 1.5px;">
+                    Discover loved Recipes and meet like-minded creators
+                  </p>
+                  <p style="height: 0.5em;"></p>
+                  <ul style="font-size: small;letter-spacing: 1px;">
+                    <li>
+                      Discover loved recipes more quickly according to search filters
+                    </li>
+                    <li>
+                      Gain the basic information about recipes from the three icons
+
+                    </li>
+                    <li>
+                      Simplify the cooking process by watching the video tutorial
+
+                    </li>
+                    <li>
+                      Follow and chat with the author.
+
+                    </li>
+                    <li>
+                      Collect more recipes from the author's album
+
+                    </li>
+                    <li>
+                      Show content based on the search box or tag buttons
+
+                    </li>
+                    <li>
+                      Join the community from the author's page
+
+                    </li>
+
+
+                  </ul>
+                </div>
+                <div class="griddiv-right ">
+                  <p>
+                    <img class="" src="/images/projects/dietwell/final 1.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>                
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddingl">
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p style="color: rgb(97, 98, 98); font-weight: normal;letter-spacing: 1px;">
+                    Solution 2 -> user goal 2<br/>
+                  </p>
+                  <p style="color: #4ad4a4; font-weight: normal;letter-spacing: 1px;">
+                    <i>"how to diagnose food intolerance</i><br/><br/>
+                  </p>
+                
+                  <p style="font-size: larger; font-weight:600;letter-spacing: 1.5px;">
+                    Write Food journaling and track unwanted symptoms
+
+                  </p>
+                  <p style="height: 0.5em;"></p>
+                  <ul style="font-size: small;letter-spacing: 1px;">
+                    <li>
+                      Record diet, mood, and symptoms by uploading a photo of your meal
+                    </li>
+                    <li>
+                      View monthly food journaling data to rediscover how specific foods are associated with your body
+
+                    </li>
+                    <li>
+                      Identify food intolerances by analyzing statistics
+
+                    </li>
+
+                  </ul>
+                </div>
+                <div class="griddiv-right ">
+                  <p>
+                    <img class="" src="/images/projects/dietwell/final 1.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>                
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="">
+            <p class="padding-tp"></p>
+            <div class="paddingl">
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p style="color: rgb(97, 98, 98); font-weight: normal;letter-spacing: 1px;">
+                    Solution 3 -> user goal 3<br/>
+                  </p>
+                  <p style="color: #4ad4a4; font-weight: normal;letter-spacing: 1px;">
+                    <i>"how to stick to this lifestyle</i><br/><br/>
+                  </p>
+                
+                  <p style="font-size: larger; font-weight:600;letter-spacing: 1.5px;">
+                    Join Community chat and gain emotional support
+
+                  </p>
+                  <p style="height: 0.5em;"></p>
+                  <ul style="font-size: small;letter-spacing: 1px;">
+                    <li>
+                      Check out what's going on in joined communities or create your community
+
+                    </li>
+                    <li>
+                      View recommended communities by changing filter buttons
+                    </li>
+                    <li>
+                      Trigger people's curiosity by showing how many comments
+                    </li>
+                    <li>
+                      Simplify the search process by adding filter buttons and a search box
+                    </li>
+                    <li>
+                      Interacting with posts improves a sense of belonging
+                    </li>
+                  </ul>
+                </div>
+                <div class="griddiv-right ">
+                  <p>
+                    <img class="" src="/images/projects/dietwell/final 1.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>                
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <p class="overview-cls paddinglr">
+              REFLECTION
+            </p>
+            <p style="padding: 2em;"></p>
+            <p class="paddinglr"  style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">
+              Takeaway
+            </p>
+            <p style="padding: 0.5em;"></p>
+
+            <p class="intro-cls  paddinglr-smaller" >
+             {{ page.refection1 }}
+            </p> 
+
+            <p style="padding: 2em;"></p>
+            <p class="paddinglr"  style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">
+              Next Goal
+            </p>
+            <p style="padding: 0.5em;"></p>
+
+            <p class="intro-cls  paddinglr-smaller" >
+             {{ page.refection2 }}
+            </p> 
+            
+            <p class="padding-bt"></p>
+          </div>
         </div>
 
+        <!-- <div class="paddinglr" style="background-color: brown;">
+          <div class="griddiv">
+            <div class="griddiv-navi-left">
+              <p style="text-align: left;">
+                aaaa
+              </p>
+            </div>
+            <div class="griddiv-navi-right">
+              <p style="text-align: right;">bb</p>
+            </div>
+          </div>
+        </div> -->
 
-
+      </div>
       </section>
     </main>
     <footer class="main-footer">
