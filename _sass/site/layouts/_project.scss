@@ -167,14 +167,15 @@
 
 .griddiv {
   @extend .grid-container-gq;
-
+  --start: 5;
+  --end: 12;  
   .griddiv-right {
     grid-row: 1;
     @include grid-column-from-to(5,12);
   }
   .griddiv-right-small {
     grid-row: 1;
-    @include grid-column-from-to(5,10);
+    @include grid-column-from-to(5,11);
   }
   .griddiv-right-smaller {
     grid-row: 1;
@@ -188,6 +189,20 @@
       grid-row: 1;
       @include grid-column-from-to(1,4);
     }
+  }
+
+  .griddiv-navi-left {
+    grid-row: 1;
+    @include grid-column-from-to(1,4);
+    @include grid-media(tablet) {
+      grid-row: 1;
+      @include grid-column-from-to(1,6);
+    }
+  }
+
+  .griddiv-navi-right {
+    grid-row: 1;
+    @include grid-column-from-to(7,12);
   }
   
 }
