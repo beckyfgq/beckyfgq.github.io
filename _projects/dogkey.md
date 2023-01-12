@@ -20,26 +20,26 @@ overview: |
     So DOGKEY is here. It can make real-time video calls and interactions, identify the dog activities and give early warnings, feed the dog intelligently and scientifically, monitor the dog's physical indicators, and provide suggestions for improvement.
 content_market: |
     
-    Nowadays, the Chinese pet market size is rapidly expanding.
+    🌻 Nowadays, <strong style="color:#17e3f0">the Chinese pet market size is rapidly expanding</strong>.
     Especially since covid-19, pets have been regarded as a kind of spiritual companion, 
     so more and more Chinese families choose to keep pets. 
-
-    Most Chinese pet owners are between the age of 25-40 and located in first and second-tier cities.
-    They tend to have higher incomes (66% of those with a monthly salary of more than 8,000 yuan) 
-    and better educational degrees (65.2% of those with college and master's degrees).
+    <br/><br/>
+    🐕 Most Chinese pet owners are between the age of <strong style="color:#17e3f0">25-40</strong> and located in <strong style="color:#17e3f0">first and second-tier cities</strong>.
+    They tend to have <strong style="color:#17e3f0">higher incomes</strong> (66% of those with a monthly salary of more than 8,000 yuan) 
+    and <strong style="color:#17e3f0">better educational degrees</strong> (65.2% of those with college and master's degrees).
 
 
 refection: |
-    Starting from the identity of a pet owner, I started this UXD journey step by step, 
+    ❤️ Starting from the identity of a pet owner, I started this UXD journey step by step, 
     inspired by the problems I encountered in raising dogs. My most significant learning 
-    from this project was creating a product from 0 to 1: from conducting user research 
-    to defining design requirements and developing prototypes. I learned the importance 
+    from this project was creating a product <strong style="color:#17e3f0">from 0 to 1</strong>: from conducting <strong style="color:#17e3f0">user research</strong> 
+    to <strong style="color:#17e3f0">design</strong> requirements and developing <strong style="color:#17e3f0">prototypes</strong>. I learned the importance 
     of capturing research data and understood how different the insights from it could be 
-    from user interviews. It's all about using the right method for a problem! 
-    <br/>
-    If I have more time, I'd like to be able to conduct user testing and commercial 
+    from user interviews. It's all about using the <strong style="color:#17e3f0">right method</strong> for a problem! 
+    <br/><br/>
+    ⭐ If I have more time, I'd like to be able to conduct <strong style="color:#17e3f0">user testing</strong> and <strong style="color:#17e3f0">commercial</strong> 
     viability investigations, and I'd like to know how easy it is 
-    to implement these product features on a technical level.
+    to implement these product features on a <strong style="color:#17e3f0">technical level</strong>.
 
 f1-txt: |
   Feature 1 # Pain Point 1
