@@ -2,23 +2,14 @@
 published: true
 media: Website
 layout: arthand
-# date: 2017-6-1
-# title: "Ski Solutions0"
-# description: "Responsive experience redesign for a tailor-made ski tour operator"
-# categories: website, ux, mobile
-# disciplines: UX, Responsive web design, HTML/CSS
-# ownership:
-# client: Ski Solutions
-# time_period: 2017
-# thumbnail: "/projects/ski-solutions/plist-ski-solutions.jpg"
+
+title: |
+          A global digital marketplace that connects buyers and handmade creators, allowing buyers to purchase one-of-a-kind art crafts according to their needs and personal tastes.
+
 overview: |
     
-    DOGKEY<br/>
+    In China, after more than three years of Covid-19, many handmade artists face survival problems. They cannot normally participate in offline fairs to sell their products or find a suitable platform to display their works. On the other hand, consumers who like art and creativity have a limited chance to contact these art crafters directly. So, I want to build a communication platform for crafters and buyers, supporting crafters to sell the thing they love and profit from individual creations, and link buyers directly with artists to find beautiful and creative items.
 
-    Guaranteed Your Love for Pet Dogs<br/>
-
-    DOGKEY is an IoT smart home app that protects the dog's physical and mental health when the owner is not at home. Since Covid-19, more and more high-income young people are opting for a dog as an alternative to their lives, and they regard the dog as part of the family. So when the dog is alone at home, they worry about the dog's emotions, want to know what the dog is doing at home, and want to keep abreast of the dog's physical condition.<br/> 
-    So DOGKEY is here. It can make real-time video calls and interactions, identify the dog activities and give early warnings, feed the dog intelligently and scientifically, monitor the dog's physical indicators, and provide suggestions for improvement.
 content_market: |
     Conclusion of Market Research
               Nowadays, the Chinese pet market size is rapidly expanding.
@@ -30,7 +21,14 @@ content_market: |
     and better educational degrees (65.2% of those with college and master's degrees).
 
 
-# intro: |
+refection1: |
+  I got the inspiration for this app from the field of the pottery I am most familiar with. The texture and emotion endowed by handmade artworks can never be replaced by mechanized factory production, and the creativity of hand-made artists needs to be supported. At the same time, with the increasing acceptance of handmade art by Chinese consumers, I realized there is a need for such work. Therefore, making this portfolio with such a mission makes me feel I am doing something meaningful.
+  <br/>
+  My most significant gain in this project is learning to choose from the design dimension and the rationality of product functions. What is my rationale for adding these features?  Is it in adding this button line with the user's usage habits? Thinking about UX design with these questions makes my work more three-dimensional and profound.
+refection2: |
+  Imitation and plagiarism often occur when designing products, yet many consumers think they are buying an original design. Therefore, I hope that the function of authenticating original works can be developed, which can not only guarantee handmade creators' creativity but also help consumers filter out brands that are genuinely designed with heart.
+  <br/>
+  In addition, the excellent development of a community is inseparable from norms and systems, so how the platform guides creators and buyers to have friendly exchanges is another aspect that needs to be considered. 
 
 content_layout:
   - section_layout: 1col

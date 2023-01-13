@@ -11,7 +11,7 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=DM+Serif+Display&display=swap">
   <link rel="canonical" href="http://beckyfgq.github.io/projects/dogkey/">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
   <link rel="manifest" href="/images/favicons/manifest.json">
@@ -33,6 +33,10 @@
 </head>
 
 <style type="text/css">
+  :root {
+    --mg-px: 10%
+  }
+  
   .intro-cls {
     /* max-width: 750px; */
     font-size: 16px;
@@ -49,17 +53,43 @@
 
   .overview-cls {
     color: #000000;
-    font-size: 200%;
+    font-size: 150%;
     word-spacing: 2px;
     letter-spacing: 2px;
-    text-align: left;
+    text-align: center;
     font-weight: 600;
   }
 
+  .paddingl {
+    padding-left: 16%;
+  }
   .paddinglr {
     padding-right: 16%;
     padding-left: 16%;
-    padding-top: 5%;
+  }
+  .paddinglr-big {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .padding-tp {
+    padding-top: var(--mg-px);
+  }
+  .padding-bt {
+    padding-bottom: var(--mg-px);
+  }
+  .paddinglr-smaller {
+    padding-right: 16%;
+    padding-left: 16%;
+    padding-top: 0%;
+    /* border-top: 1px solid rgb(0,255,0,); */
+    margin-bottom: 25px;
+  }
+  .paddinglr-small {
+    padding-right: 16%;
+    padding-left: 16%;
+    padding-top: 7%;
+    border-top: 1px solid rgb(0,255,0,);
+    margin-bottom: 25px;
   }
   .groundcolor{
     background-color: #f6f5f5
@@ -70,6 +100,44 @@
     text-align: center;
     /* vertical-align: middle; */
   }
+  .bt {
+    border-top: 1px solid rgb(0,255,0,);
+    margin-bottom: 160px;
+  }
+  .btin {
+    border-top: 1px solid rgb(0,255,0,);
+    margin-bottom: 200px;
+  }
+  .btpad {
+    /* height: 100px; */
+    padding-bottom: var(--mg-px);
+  }
+  .centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  }
+
+  .centerimg-designstyle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  }
+  .centerimg1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .centerimg-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  }
+
 
 </style>
 
@@ -78,174 +146,319 @@
     {% include header.html %}
     <div>
       <figure class="image-wrapper " > <img class=""
-          src="/images/projects/dogkey/dog-1.jpg" alt="Homepage">
+          src="/images/projects/arthand/cover.jpg" alt="Homepage">
       </figure>
-      <p class="overview-cls paddinglr">
-        <br /><br /><br/>
-        Overview
+      <p class="padding-tp"></p>
+      <p> 
+        <img  class="centerimg-logo"  src="/images/projects/arthand/logo.png" alt="logo">
       </p>
+      <!-- <p class="padding-tp"></p> -->
+      <p style="padding: 1em;"></p>
       <p class="intro-cls  paddinglr">
-        {{ page.overview }}
+        {{ page.title }}
       </p>
-      <p class=" image-wrapper"> 
-        <img  class="paddinglr" style="text-align:center;"  src="/images/projects/dogkey/my role.png" alt="Homepage">
+      <p style="padding: 1em;"></p>
+
+      <p class=" image-wrapper" > 
+        <img  class="paddinglr " style="text-align:center;"  src="/images/projects/arthand/00.png">
       </p>
+      <p class="padding-bt"></p>
     </div>
-    <div style="height: 30px;"></div>
     <main class="prj-wrapper" id="maincontent">
       <section>
         <div>
 
           <div class="groundcolor">
-            <div  class="paddinglr">
-              Design Process
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/001.jpg" alt="Homepage">
-              </figure>
+            <p class="padding-tp"></p>
+            <p class="overview-cls paddinglr">
+              OVERVIEW
+            </p>
+            <p style="padding: 1em;"></p>
+            <p class="intro-cls  paddinglr-smaller" >
+              {{ page.overview }}
+            </p>
+            <div  class="paddinglr-small ">
+              <p class="overview-cls " style="padding-top: 0%;">
+                DESIGN PROCESS
+              </p>
+              <br/>
+              <p class="centerimg image-wrapper">
+
+              <img class="" src="/images/projects/dogkey/001.png" alt="Homepage">
+              </p>
             </div>
+            <p class="padding-bt"></p>
           </div>
-          <div >
-            <div  class="paddinglr">
-              SVG TODO ...
-              <!-- <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/001.jpg" alt="Homepage"> -->
-              <!-- </figure> -->
+
+          <div class="">
+            <p class="padding-tp"></p>
+            <div class=" paddinglr">
+              <p class="overview-cls paddinglr">
+                INITIAL THINKING
+              </p><br/><br/>
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  <p>todo....</p>
+                </div>
+                <div class="griddiv-right ">
+                  <p>todo....</p>
+                </div>
+              </div>            
             </div>
-          </div>
-          <div class="groundcolor">
-            <div class="paddinglr">
-              Brainstorming
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/01.jpg" alt="Homepage">
-              </figure>
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/02.jpg" alt="Homepage">
-              </figure>
-            </div>
+            <p class="padding-tp"></p>
           </div>
 
           <div class="groundcolor">
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              Conclusion of brainstorm
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/03.jpg" alt="Homepage">
+              <p class="overview-cls paddinglr">
+                RESEARCH INSIGHTS
+             </p><br/><br/>
+              <!-- <p class="overview-cls paddinglr"> -->
+              <p class="paddinglr"  style="text-align: center; font-size: larger; font-weight:600;letter-spacing: 2px;">
+
+                 Pain points - creators
+              </p><br/><br/>
+              <p class="centerimg image-wrapper">
+
+              <img class="" src="/images/projects/arthand/pain 1.png" alt="Homepage">
+              </p>
+
+            </div>
+          </div>
+          <div>
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              <p class="paddinglr"  style=" text-align: center; font-size: larger; font-weight:600;letter-spacing: 2px;">
+
+                Pain points - creators
+              </p><br/><br/>
+              <p class="centerimg image-wrapper">
+
+              <img class="" src="/images/projects/arthand/pain 2.png" alt="Homepage">
+              </p>
+
+            </div>
+          </div>
+
+          <div style="background-color: #000000;">
+            <p class="padding-tp"></p>
+            <div class="paddinglr-big">
+              <p class="overview-cls" style="color: #ffffff;">
+                PROBLEM STATEMENT
+              </p><br/><br/>
+              
+              <p class="intro-cls" style="color: #ffffff;">
+                How might we help handmade creators build an effective platform to communicate with potential buyers and promote a positive change for small businesses, people, and the planet?
+              </p>
+              
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              <p class="overview-cls paddinglr">
+                PERSONA - THE CREATOR 
+              </p><br/><br/>
+              
+              <p class="centerimg image-wrapper">
+                <img class=""  src="/images/projects/arthand/persona 1.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div class="groundcolor">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              <p class="overview-cls paddinglr">
+                PERSONA - THE BUYER
+              </p><br/><br/>
+              
+              <p class="centerimg image-wrapper">
+                <img class=""  src="/images/projects/arthand/persona 2.png" alt="Homepage">
+              </p>
+            </div>
+            <p class="padding-bt"></p>
+          </div>
+
+          <div style="background-color: #000000;">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              <p class="overview-cls paddinglr" style="color: #ffffff;">
+                KEY FEATURES
+              </p><br/><br/>
+              
+              <p class="centerimg image-wrapper">
+
+              <img src="/images/projects/arthand/key features.png" alt="Homepage">
+              </p>
+            </div>
+          </div>
+
+          <div style="background-color: #000000;">
+            <p class="padding-tp"></p>
+            <div class="paddinglr">
+              <p class="overview-cls paddinglr" style="color: #ffffff;">
+                FUNCTIONAL STRUCTURE
+              </p><br/><br/>
+              
+              <figure class="centerimg image-wrapper "> <img class="" src="/images/projects/arthand/functinal structure.png" alt="Homepage">
               </figure>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div>
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              Market Research
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/04.jpg" alt="Homepage">
-              </figure>
-              {{ page.content_market | markdownify }}
+              
+              <p class="overview-cls paddinglr">
+                WIREFRAMES
+              </p><br/><br/>
+              
+              <p class="centerimg image-wrapper">
+              <img class="" src="/images/projects/arthand/wireframe.png" alt="Homepage">
+              </p>
             </div>
-          </div>
-          <div class="groundcolor">
-            <div class="paddinglr">
-              Quantitative Research
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/05.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          <div>
-            <div class="paddinglr">
-              Qualitative Research
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/06.jpg" alt="Homepage">
-              </figure>
-            </div>
+            <p class="padding-bt"></p>
           </div>
 
           <div class="groundcolor">
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              Persona
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/07.jpg" alt="Homepage">
-              </figure>
-
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/08.jpg" alt="Homepage">
-              </figure>
+              
+              <p class="overview-cls paddinglr">
+                DESIGN STYLE
+              </p><br/><br/>
+              
+              <p class="centerimg-designstyle image-wrapper">
+              <img class="" src="/images/projects/arthand/design style.png" alt="Homepage">
+              </p>
             </div>
+            <p class="padding-bt"></p>
           </div>
 
-          <div>
-            <div class="paddinglr">
-              Empathy Map
+         
 
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/09.jpg" alt="Homepage">
-              </figure>
+
+          <div class="">
+            <p class="padding-tp"></p>
+            <p class="overview-cls">FINAL DESIGN</p>
+            <br/><br/><br/><br/>
+
+
+            <div class="paddingl">
+              <div class="griddiv">
+                <div class="griddiv-left">
+                  todo...
+                </div>
+                <div class="griddiv-right ">
+                  <p>
+                    <img class="" src="/images/projects/dogkey/71.png" alt="Homepage">
+                  </p>
+                </div>
+              </div>                
             </div>
+            <p class="padding-bt"></p>
           </div>
 
+          
+          
+
+         
           <div class="groundcolor">
+            <p class="padding-tp"></p>
             <div class="paddinglr">
-              STORYBOARD
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/10.jpg" alt="Homepage">
-              </figure>
+              <p class="overview-cls paddinglr">
+                USER TESTING FEEDBACK
+              </p><br/><br/>
+
+              <div class="griddiv">
+                <div class="griddiv-left-arthand">
+                  <ul class="intro-cls" >
+                    <li>
+                      It's good to see a platform selling handmade crafts and connecting creators and buyers.
+    
+                    </li>  
+                    <li>
+                      I love the function of combining both shops and social media posts.
+    
+                    </li>  
+                    <li>
+                      It's convenient to see the effects of artworks by AR.
+    
+                    </li>  
+                    <li>
+                      I love the concept of supporting small business owners in their creativity.
+    
+                    </li>  
+                    <li>
+                      I think it's simple and great to have only three nav bars.
+    
+                    </li>  
+                  </ul>
+                </div>
+
+                <div class="griddiv-right">
+                  <p class="centerimg image-wrapper">
+                    <img class="" src="/images/projects/arthand/test.jpg" alt="Homepage">
+                  </p>
+                </div>
+
+              </div>
+              
+
             </div>
+            <p class="padding-bt"></p>
           </div>
+          
+  
 
-          <div>
-            <div class="paddinglr">
-              Define The Problem
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/11.jpg" alt="Homepage">
-              </figure>
-            </div>
+          <div class="">
+            <p class="padding-tp"></p>
+            <p class="overview-cls paddinglr">
+              REFLECTION
+            </p>
+            <p style="padding: 2em;"></p>
+            <p class="paddinglr"  style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">
+              🌴 Takeaway
+            </p>
+            <p style="padding: 0.5em;"></p>
+
+            <p class="intro-cls  paddinglr-smaller" >
+             {{ page.refection1 }}
+            </p> 
+
+            <p style="padding: 2em;"></p>
+            <p class="paddinglr"  style="text-align: left; font-size: larger; font-weight:600;letter-spacing: 2px;">
+              🌸 Next Action
+            </p>
+            <p style="padding: 0.5em;"></p>
+
+            <p class="intro-cls  paddinglr-smaller" >
+             {{ page.refection2 }}
+            </p> 
+            
+            <p class="padding-bt"></p>
           </div>
-
-          <div class="groundcolor">
-            <div class="paddinglr">
-              Key Features
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/12.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          <div>
-            <div class="paddinglr">
-              Mind Mapping
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/13.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          <div class="groundcolor">
-            <div class="paddinglr">
-              UX WORKFLOW
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/14.jpg" alt="Homepage">
-              </figure>
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/14-1.png" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          <div>
-            <div class="paddinglr">
-              Wireframes
-
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/17.jpg" alt="Homepage">
-              </figure>
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/17-1.png" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          <div class="groundcolor">
-            <div class="paddinglr">
-              Design style
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/16.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          <div>
-            <div class="paddinglr">
-              FINAL DESIGN
-              <figure class="image-wrapper "> <img class="" src="/images/projects/dogkey/18.jpg" alt="Homepage">
-              </figure>
-            </div>
-          </div>
-
-          Reflection
         </div>
+        <!-- <div class="paddinglr" style="background-color: brown;">
+          <div class="griddiv">
+            <div class="griddiv-navi-left">
+              <p style="text-align: left;">
+                aaaa
+              </p>
+            </div>
+            <div class="griddiv-navi-right">
+              <p style="text-align: right;">bb</p>
+            </div>
+          </div>
+        </div> -->
 
-
-
+        </div>
       </section>
     </main>
     <footer class="main-footer">
