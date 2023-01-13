@@ -191,6 +191,24 @@
     }
   }
 
+  .griddiv-left-small {
+    grid-row: 1;
+    @include grid-column-from-to(1,4);
+    @include grid-media(tablet) {
+      grid-row: 1;
+      @include grid-column-from-to(2,5);
+    }
+  }
+
+  .griddiv-dietwell-left {
+    grid-row: 1;
+    @include grid-column-from-to(1,4);
+    @include grid-media(tablet) {
+      grid-row: 1;
+      @include grid-column-from-to(2,6);
+    }
+  }
+
   .griddiv-navi-left {
     grid-row: 1;
     @include grid-column-from-to(1,4);
