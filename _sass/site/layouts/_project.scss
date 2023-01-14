@@ -167,11 +167,15 @@
 
 .griddiv {
   @extend .grid-container-gq;
-  --start: 5;
-  --end: 12;  
+ 
   .griddiv-right {
     grid-row: 1;
     @include grid-column-from-to(5,12);
+  }
+
+  .griddiv-right-arthand {
+    grid-row: 1;
+    @include grid-column-from-to(6,10);
   }
   .griddiv-right-small {
     grid-row: 1;
@@ -191,6 +195,15 @@
     }
   }
 
+  .griddiv-left-arthand {
+    grid-row: 1;
+    @include grid-column-from-to(1,4);
+    @include grid-media(tablet) {
+      grid-row: 1;
+      @include grid-column-from-to(1,5);
+    }
+  }
+  
   .griddiv-left-small {
     grid-row: 1;
     @include grid-column-from-to(1,4);
