@@ -68,47 +68,47 @@ whatido:
 postcards:
     - caption:
       description: Paint bucket icon
-      url: '/projects/about/11.jpg'
+      url: '/projects/about/post 5.png'
       width:
       height:
     - caption:
       description: Paint bucket icon
-      url: '/projects/about/12.jpg'
+      url: '/projects/about/post 6.png'
       width:
       height:
     - caption:
       description: Paint bucket icon
-      url: '/projects/about/13.jpg'
+      url: '/projects/about/post 9.jpg'
       width:
       height:
     - caption:
       description: Paint bucket icon
-      url: '/projects/about/21.jpg'
+      url: '/projects/about/post 3.png'
       width:
       height:
     - caption:
       description: Paint bucket icon
-      url: '/projects/about/22.jpg'
+      url: '/projects/about/post 7.png'
       width:
       height:
     - caption:
       description: Paint bucket icon
-      url: '/projects/about/23.jpg'
+      url: '/projects/about/post 8.jpg'
       width:
       height:
     - caption:
       description: Paint bucket icon
-      url: '/projects/about/31.jpg'
+      url: '/projects/about/post 4.jpg'
       width:
       height:
     - caption:
       description: Paint bucket icon
-      url: '/projects/about/32.jpg'
+      url: '/projects/about/post 2.png'
       width:
       height:
     - caption:
       description: Paint bucket icon
-      url: '/projects/about/33.jpg'
+      url: '/projects/about/post 1.png'
       width:
       height:
 ---
@@ -129,14 +129,16 @@ postcards:
   }
 </script>
 
-<div class="about-wrapper" style="padding-left: 5%; padding-right: 5%;">
+<div class="about-wrapper" style="padding-left: 15%; padding-right: 15%;">
   <div class="about">
     <div class="about-intro-description">
       <img src="{{ page.profile_picture }}" alt=""  width="auto" height="430">
     </div>
 
     <div class="about-intro-image aboutme-words " >
-      {{ page.intro | markdownify }}
+      <p>
+        {{ page.intro | markdownify }}
+      </p>
     </div>
   </div>
 </div>
@@ -146,8 +148,11 @@ postcards:
 </div>
 <div class="projects" style="padding-left: 10%; padding-right: 10%;">
   <p class="project-listing" style="color: #6ec992;font-size: 170%;letter-spacing: 1px;">What I Do</p>
+
 </div>
-<br/>
+<br/><br/>
+<!-- <p style="padding: 1em;"></p> -->
+
 <div class="projects" style="padding-left: 10%; padding-right: 10%;">
 
   {% for image in page.whatido %}
@@ -156,11 +161,13 @@ postcards:
           <div class="thumbnail-description-wrapper0">
             <img src="{{ image.url | prepend: site.image_serve_path }}" >
             <p class="thumbnail-description">
+              <br/>
+
               <span style="color: #f69fbf;font-size: 100%; font-weight:500;letter-spacing: 1px;">{{ image.caption }}</span><br/>
-              <div style="color: #8b8b8b; font-size: 60%;font-weight:lighter;line-height:1.2;letter-spacing: 1px;">
+              <div style="color: #494949; font-size: 90%;font-weight:lighter;line-height:1.2;letter-spacing: 1px;">
                 {{ image.description }}
               </div>
-            </p>
+            </p><br/>
           </div>
       </div>
     </article>
@@ -168,24 +175,22 @@ postcards:
 </div>
 
 
-<div style="height: 50px;">
-</div>
+
+<p style="padding: 6em;"></p>
+
 <div class="projects0" style="padding-left: 15%; padding-right: 10%;">
   <p class="project-listing" style="color: #6ec992; font-size: 170%;letter-spacing: 1px;">
   Postcards from Outside Work
   </p>
 </div>
-<br/>
+<br/><br/>
 
 <div class="projects"  style="padding-left: 10%; padding-right: 10%;">
 
   {% for image in page.postcards %}
     <article class="project-listing">
-      <div class="thumbnail-wrapper0">
-          <div class="thumbnail-description-wrapper0">
-            <img src="{{ image.url | prepend: site.image_serve_path }}" height="198" width="auto">
-          </div>
-      </div>
+            <img src="{{ image.url | prepend: site.image_serve_path }}" >
+
     </article>
   {% endfor %}
 </div>

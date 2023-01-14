@@ -203,6 +203,19 @@
       @include grid-column-from-to(1,5);
     }
   }
+
+  .griddiv-left-arthand-thinking {
+    grid-row: 1;
+    @include grid-column-from-to(1,4);
+    @include grid-media(tablet) {
+      grid-row: 1;
+      @include grid-column-from-to(1,6);
+    }
+  }
+  .griddiv-right-arthand-thinking {
+    grid-row: 1;
+    @include grid-column-from-to(8,12);
+  }
   
   .griddiv-left-small {
     grid-row: 1;
