@@ -8,7 +8,7 @@ title: |
 
 overview: |
     
-    In China, after more than three years of Covid-19, many handmade artists face survival problems. They cannot normally participate in offline fairs to sell their products or find a suitable platform to display their works. On the other hand, consumers who like art and creativity have a limited chance to contact these art crafters directly. So, I want to build a communication platform for crafters and buyers, supporting crafters to sell the thing they love and profit from individual creations, and link buyers directly with artists to find beautiful and creative items.
+    In China, after more than three years of Covid-19, many handmade artists face survival problems. They cannot normally participate in offline fairs to sell their products or find a suitable platform to display their works. On the other hand, consumers who like art and creativity have a limited chance to contact these art crafters directly. So, I want to build a <strong style="color:#ff4575;">communication platform</strong> for crafters and buyers, supporting crafters to <strong style="color:#ff4575;">sell the thing they love</strong> and <strong style="color:#ff4575;">profit</strong> from <strong style="color:#ff4575;">individual creations</strong>, and link buyers directly with artists to <strong style="color:#ff4575;">find beautiful and creative items</strong>.
 
 content_market: |
     Conclusion of Market Research
@@ -22,13 +22,14 @@ content_market: |
 
 
 refection1: |
-  I got the inspiration for this app from the field of the pottery I am most familiar with. The texture and emotion endowed by handmade artworks can never be replaced by mechanized factory production, and the creativity of hand-made artists needs to be supported. At the same time, with the increasing acceptance of handmade art by Chinese consumers, I realized there is a need for such work. Therefore, making this portfolio with such a mission makes me feel I am doing something meaningful.
+  I got the inspiration for this app from the field of the pottery I am most familiar with. The texture and emotion endowed by <strong style="color:#ff4575;">handmade artworks</strong> can never be replaced by mechanized factory production, and the <strong style="color:#ff4575;">creativity</strong> of hand-made artists needs to be <strong style="color:#ff4575;">supported</strong>. At the same time, with the increasing acceptance of handmade art by Chinese consumers, I realized there is <strong style="color:#ff4575;">a need</strong> for such work. Therefore, making this portfolio with such a mission makes me feel I am doing something meaningful.
   <br/>
-  My most significant gain in this project is learning to choose from the design dimension and the rationality of product functions. What is my rationale for adding these features?  Is it in adding this button line with the user's usage habits? Thinking about UX design with these questions makes my work more three-dimensional and profound.
+  My most significant gain in this project is learning to choose from the <strong style="color:#ff4575;">design dimension</strong> and the <strong style="color:#ff4575;">rationality of product functions</strong>. What is my rationale for adding these features?  Is it in adding this button line with the user's usage habits? Thinking about UX design with these questions makes my work more three-dimensional and profound.
 refection2: |
-  Imitation and plagiarism often occur when designing products, yet many consumers think they are buying an original design. Therefore, I hope that the function of authenticating original works can be developed, which can not only guarantee handmade creators' creativity but also help consumers filter out brands that are genuinely designed with heart.
+  Imitation and plagiarism often occur when designing products, yet many consumers think they are buying an original design. Therefore, I hope that the function of <strong style="color:#ff4575;">authenticating original works</strong> can be developed, which can not only guarantee handmade creators' creativity but also help consumers filter out brands that are genuinely designed with heart.
   <br/>
-  In addition, the excellent development of a community is inseparable from norms and systems, so how the platform guides creators and buyers to have friendly exchanges is another aspect that needs to be considered. 
+  In addition, the excellent development of a community is inseparable from <strong style="color:#ff4575;">norms and systems</strong>, so how the platform guides creators and buyers to have friendly exchanges is another aspect that needs to be considered. 
+  
 
 content_layout:
   - section_layout: 1col
