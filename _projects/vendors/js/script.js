@@ -123,7 +123,7 @@ $(function() {
   		      // 'textShadowColor': 'rgba(242, 120, 9' + (Math.floor(Math.random()*10)+75) + ')'
   		    });
   		// Call itself recursively
-  		setTimeout(randomBlurize, 100);
+  		setTimeout(randomBlurize, 70);
 	  }
 
     // Call once
